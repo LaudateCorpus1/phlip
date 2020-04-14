@@ -1,0 +1,1157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home - ProjectList - ProjectPanel scene should render correctly 1`] = `
+<Fragment>
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={false}
+    flex={false}
+    justify="stretch"
+    padding={0}
+    raised={false}
+    style={
+      Object {
+        "backgroundColor": "white",
+      }
+    }
+    type="column"
+  >
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={true}
+      flex={true}
+      justify="center"
+      padding={0}
+      raised={false}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 0,
+          "boxShadow": "0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12)",
+          "fontSize": "0.8125rem",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+      type="column"
+    >
+      <ProjectRow
+        bookmarked={false}
+        handleExpandProject={[Function]}
+        isCoder={false}
+        project={
+          Object {
+            "createdBy": "Admin",
+            "createdByEmail": "test@test.test",
+            "createdById": 1,
+            "dateCreated": "2019-04-08T11:43:46.3034169",
+            "dateLastEdited": "2019-04-18T13:27:51.454041",
+            "id": 2,
+            "lastEditedBy": "Aleksandra Zaryanova",
+            "lastUsersCheck": 1555606985567,
+            "name": "PROJECT",
+            "projectJurisdictions": Array [],
+            "projectUsers": Array [],
+            "type": 1,
+          }
+        }
+        toggleBookmark={[MockFunction]}
+      />
+      <WithStyles(Collapse)
+        in={false}
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "transitionDuration": "150ms",
+            "width": "100%",
+          }
+        }
+      >
+        <FlexGrid
+          align="stretch"
+          circular={false}
+          container={true}
+          flex={false}
+          justify="stretch"
+          padding={0}
+          raised={false}
+          style={
+            Object {
+              "overflow": "auto",
+              "width": "100%",
+            }
+          }
+          type="row"
+        >
+          <FlexGrid
+            align="stretch"
+            circular={false}
+            container={true}
+            flex={false}
+            justify="stretch"
+            padding={0}
+            raised={false}
+            style={
+              Object {
+                "backgroundColor": "white",
+                "width": 300,
+              }
+            }
+            type="column"
+          >
+            <WithStyles(GridList)
+              cellHeight={300}
+              cols={1}
+              rows={1}
+              spacing={2}
+              style={
+                Object {
+                  "margin": 0,
+                  "width": 300,
+                }
+              }
+            />
+          </FlexGrid>
+          <FlexGrid
+            align="stretch"
+            circular={false}
+            container={true}
+            flex={true}
+            justify="stretch"
+            padding={0}
+            raised={false}
+            style={Object {}}
+            type="column"
+          >
+            <FlexGrid
+              align="center"
+              circular={false}
+              container={true}
+              flex={false}
+              justify="stretch"
+              onClick={[Function]}
+              padding={30}
+              raised={false}
+              style={
+                Object {
+                  "backgroundColor": "#f9f9f9",
+                }
+              }
+              type="row"
+            >
+              <FlexGrid
+                align="center"
+                circular={false}
+                container={true}
+                flex={true}
+                justify="flex-start"
+                padding={0}
+                raised={false}
+                style={
+                  Object {
+                    "marginRight": 15,
+                    "minWidth": 150,
+                  }
+                }
+                type="row"
+              >
+                <IconButton
+                  aria-label="Bookmark this project"
+                  color="#757575"
+                  disabled={false}
+                  iconSize={24}
+                  id="bookmark-project-2"
+                  onClick={[Function]}
+                  tooltipText="Bookmark project"
+                >
+                  bookmark_border
+                </IconButton>
+                <WithStyles(Typography)
+                  style={
+                    Object {
+                      "margin": "0 8px",
+                      "whiteSpace": "nowrap",
+                    }
+                  }
+                  variant="title"
+                >
+                  PROJECT
+                </WithStyles(Typography)>
+                <IconButton
+                  aria-label="Edit Project PROJECT"
+                  color="secondary"
+                  disabled={false}
+                  iconSize={24}
+                  id="edit-project-2"
+                  tooltipText="Edit Project Details"
+                >
+                  edit
+                </IconButton>
+              </FlexGrid>
+              <FlexGrid
+                align="stretch"
+                circular={false}
+                container={true}
+                flex={true}
+                justify="flex-end"
+                padding={0}
+                raised={false}
+                style={
+                  Object {
+                    "height": 40,
+                  }
+                }
+                type="row"
+              >
+                <WithTheme(Button)
+                  aria-label="Add and edit project jurisdictions"
+                  color="white"
+                  component={[Function]}
+                  disableRipple={true}
+                  id="2-edit-jurisdictions"
+                  style={
+                    Object {
+                      "marginLeft": 10,
+                    }
+                  }
+                  textColor="black"
+                  to={
+                    Object {
+                      "pathname": "/project/2/jurisdictions",
+                      "state": Object {
+                        "modal": true,
+                      },
+                    }
+                  }
+                >
+                  Jurisdictions
+                  <Icon
+                    style={
+                      Object {
+                        "fontSize": 18,
+                        "paddingLeft": 5,
+                      }
+                    }
+                  />
+                </WithTheme(Button)>
+                <WithTheme(Button)
+                  aria-label="Documents in this project"
+                  color="white"
+                  component={[Function]}
+                  disableRipple={true}
+                  style={
+                    Object {
+                      "marginLeft": 10,
+                    }
+                  }
+                  textColor="black"
+                  to={
+                    Object {
+                      "pathname": "/docs",
+                      "state": Object {
+                        "project": Object {
+                          "createdBy": "Admin",
+                          "createdByEmail": "test@test.test",
+                          "createdById": 1,
+                          "dateCreated": "2019-04-08T11:43:46.3034169",
+                          "dateLastEdited": "2019-04-18T13:27:51.454041",
+                          "id": 2,
+                          "lastEditedBy": "Aleksandra Zaryanova",
+                          "lastUsersCheck": 1555606985567,
+                          "name": "PROJECT",
+                          "projectJurisdictions": Array [],
+                          "projectUsers": Array [],
+                          "type": 1,
+                        },
+                        "projectDefined": true,
+                      },
+                    }
+                  }
+                >
+                  Documents
+                  <Icon
+                    style={
+                      Object {
+                        "fontSize": 18,
+                        "paddingLeft": 5,
+                      }
+                    }
+                  />
+                </WithTheme(Button)>
+                <WithTheme(Button)
+                  aria-label="Add and edit project coding scheme"
+                  color="white"
+                  component={[Function]}
+                  disableRipple={true}
+                  style={
+                    Object {
+                      "marginLeft": 10,
+                    }
+                  }
+                  textColor="black"
+                  to="/project/2/coding-scheme"
+                >
+                  Coding Scheme
+                  <Icon
+                    style={
+                      Object {
+                        "fontSize": 18,
+                        "paddingLeft": 5,
+                      }
+                    }
+                  />
+                </WithTheme(Button)>
+                <WithTheme(Button)
+                  aria-label="Add and edit project protocol"
+                  color="white"
+                  component={[Function]}
+                  disableRipple={true}
+                  style={
+                    Object {
+                      "marginLeft": 10,
+                    }
+                  }
+                  textColor="black"
+                  to="/project/2/protocol"
+                >
+                  Protocol
+                  <Icon
+                    style={
+                      Object {
+                        "fontSize": 18,
+                        "paddingLeft": 5,
+                      }
+                    }
+                  />
+                </WithTheme(Button)>
+                <WithTheme(Button)
+                  aria-label="Export validated questions"
+                  color="white"
+                  disableRipple={true}
+                  id="export-validated-2"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "marginLeft": 10,
+                    }
+                  }
+                  textColor="black"
+                >
+                  Export
+                  <Icon
+                    style={
+                      Object {
+                        "fontSize": 18,
+                        "paddingLeft": 5,
+                      }
+                    }
+                  />
+                </WithTheme(Button)>
+              </FlexGrid>
+            </FlexGrid>
+            <FlexGrid
+              align="stretch"
+              circular={false}
+              container={true}
+              flex={false}
+              justify="stretch"
+              padding={0}
+              raised={false}
+              style={Object {}}
+              type="row"
+            >
+              <FlexGrid
+                align="stretch"
+                circular={false}
+                container={true}
+                flex={true}
+                justify="stretch"
+                padding={30}
+                raised={false}
+                style={Object {}}
+                type="column"
+              >
+                <WithStyles(Typography)
+                  style={
+                    Object {
+                      "paddingBottom": 10,
+                    }
+                  }
+                  variant="body1"
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#7b7b7b",
+                        "fontSize": 14,
+                        "fontWeight": 500,
+                      }
+                    }
+                  >
+                    Created by:
+                     
+                  </span>
+                  Admin
+                   -
+                   
+                  <span
+                    style={
+                      Object {
+                        "color": "#7b7b7b",
+                        "fontSize": "0.8rem",
+                      }
+                    }
+                  >
+                    4/8/2019
+                  </span>
+                </WithStyles(Typography)>
+                <WithStyles(Typography)
+                  style={
+                    Object {
+                      "paddingBottom": 10,
+                    }
+                  }
+                  variant="body1"
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#7b7b7b",
+                        "fontSize": 14,
+                        "fontWeight": 500,
+                      }
+                    }
+                  >
+                    Last edited by:
+                     
+                  </span>
+                  Aleksandra Zaryanova
+                   -
+                   
+                  <span
+                    style={
+                      Object {
+                        "color": "#7b7b7b",
+                        "fontSize": "0.8rem",
+                      }
+                    }
+                  >
+                    4/18/2019
+                  </span>
+                </WithStyles(Typography)>
+                <WithStyles(Typography)
+                  style={
+                    Object {
+                      "paddingBottom": 10,
+                    }
+                  }
+                  variant="body1"
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#7b7b7b",
+                        "fontSize": 14,
+                        "fontWeight": 500,
+                      }
+                    }
+                  >
+                    Coordinator(s):
+                     
+                  </span>
+                  <span />
+                </WithStyles(Typography)>
+                <WithStyles(Typography)
+                  style={
+                    Object {
+                      "paddingBottom": 10,
+                    }
+                  }
+                  variant="body1"
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#7b7b7b",
+                        "fontSize": 14,
+                        "fontWeight": 500,
+                      }
+                    }
+                  >
+                    Coder(s):
+                     
+                  </span>
+                  <span />
+                </WithStyles(Typography)>
+                <WithStyles(Typography)
+                  variant="body1"
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#7b7b7b",
+                        "fontSize": 14,
+                        "fontWeight": 500,
+                      }
+                    }
+                  >
+                    Type:
+                     
+                  </span>
+                  <span>
+                    Legal Scan
+                  </span>
+                </WithStyles(Typography)>
+                <FlexGrid
+                  align="stretch"
+                  circular={false}
+                  container={false}
+                  flex={false}
+                  justify="stretch"
+                  padding={0}
+                  raised={false}
+                  style={Object {}}
+                  type="column"
+                />
+              </FlexGrid>
+              <FlexGrid
+                align="flex-end"
+                circular={false}
+                container={true}
+                flex={true}
+                justify="flex-end"
+                padding={30}
+                raised={false}
+                style={Object {}}
+                type="row"
+              >
+                <WithTheme(Button)
+                  aria-label="Code project"
+                  component={[Function]}
+                  listButton={true}
+                  raised={false}
+                  style={
+                    Object {
+                      "borderRadius": 3,
+                      "height": 50,
+                      "width": 150,
+                    }
+                  }
+                  to={
+                    Object {
+                      "pathname": "/project/2/code",
+                    }
+                  }
+                  value="Code"
+                />
+                <WithTheme(Button)
+                  aria-label="Validate project"
+                  component={[Function]}
+                  listButton={true}
+                  raised={false}
+                  style={
+                    Object {
+                      "borderRadius": 3,
+                      "height": 50,
+                      "marginLeft": 20,
+                      "width": 150,
+                    }
+                  }
+                  to={
+                    Object {
+                      "pathname": "/project/2/validate",
+                    }
+                  }
+                  value="Validate"
+                />
+              </FlexGrid>
+            </FlexGrid>
+          </FlexGrid>
+        </FlexGrid>
+      </WithStyles(Collapse)>
+    </FlexGrid>
+  </FlexGrid>
+</Fragment>
+`;
+
+exports[`Home - ProjectList - ProjectPanel scene should render correctly when expanded 1`] = `
+<Fragment>
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={false}
+    flex={false}
+    justify="stretch"
+    padding={0}
+    raised={false}
+    style={
+      Object {
+        "backgroundColor": "white",
+      }
+    }
+    type="column"
+  >
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={true}
+      flex={true}
+      justify="center"
+      padding={0}
+      raised={false}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 2,
+          "boxShadow": "0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12)",
+          "fontSize": "0.8125rem",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+      type="column"
+    >
+      <WithStyles(Collapse)
+        in={true}
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "transitionDuration": "150ms",
+            "width": "100%",
+          }
+        }
+      >
+        <FlexGrid
+          align="stretch"
+          circular={false}
+          container={true}
+          flex={false}
+          justify="stretch"
+          padding={0}
+          raised={false}
+          style={
+            Object {
+              "overflow": "auto",
+              "width": "100%",
+            }
+          }
+          type="row"
+        >
+          <FlexGrid
+            align="stretch"
+            circular={false}
+            container={true}
+            flex={false}
+            justify="stretch"
+            padding={0}
+            raised={false}
+            style={
+              Object {
+                "backgroundColor": "white",
+                "width": 300,
+              }
+            }
+            type="column"
+          >
+            <WithStyles(GridList)
+              cellHeight={300}
+              cols={1}
+              rows={1}
+              spacing={2}
+              style={
+                Object {
+                  "margin": 0,
+                  "width": 300,
+                }
+              }
+            >
+              <WithStyles(GridListTile)
+                key="2-blank-0"
+              >
+                <div
+                  style={
+                    Object {
+                      "backgroundColor": "#f9f9f9",
+                      "height": 300,
+                      "width": "100%",
+                    }
+                  }
+                />
+              </WithStyles(GridListTile)>
+            </WithStyles(GridList)>
+          </FlexGrid>
+          <FlexGrid
+            align="stretch"
+            circular={false}
+            container={true}
+            flex={true}
+            justify="stretch"
+            padding={0}
+            raised={false}
+            style={Object {}}
+            type="column"
+          >
+            <FlexGrid
+              align="center"
+              circular={false}
+              container={true}
+              flex={false}
+              justify="stretch"
+              onClick={[Function]}
+              padding={30}
+              raised={false}
+              style={
+                Object {
+                  "backgroundColor": "#f9f9f9",
+                }
+              }
+              type="row"
+            >
+              <FlexGrid
+                align="center"
+                circular={false}
+                container={true}
+                flex={true}
+                justify="flex-start"
+                padding={0}
+                raised={false}
+                style={
+                  Object {
+                    "marginRight": 15,
+                    "minWidth": 150,
+                  }
+                }
+                type="row"
+              >
+                <IconButton
+                  aria-label="Bookmark this project"
+                  color="#757575"
+                  disabled={false}
+                  iconSize={24}
+                  id="bookmark-project-2"
+                  onClick={[Function]}
+                  tooltipText="Bookmark project"
+                >
+                  bookmark_border
+                </IconButton>
+                <WithStyles(Typography)
+                  style={
+                    Object {
+                      "margin": "0 8px",
+                      "whiteSpace": "nowrap",
+                    }
+                  }
+                  variant="title"
+                >
+                  PROJECT
+                </WithStyles(Typography)>
+                <IconButton
+                  aria-label="Edit Project PROJECT"
+                  color="secondary"
+                  disabled={false}
+                  iconSize={24}
+                  id="edit-project-2"
+                  tooltipText="Edit Project Details"
+                >
+                  edit
+                </IconButton>
+              </FlexGrid>
+              <FlexGrid
+                align="stretch"
+                circular={false}
+                container={true}
+                flex={true}
+                justify="flex-end"
+                padding={0}
+                raised={false}
+                style={
+                  Object {
+                    "height": 40,
+                  }
+                }
+                type="row"
+              >
+                <WithTheme(Button)
+                  aria-label="Add and edit project jurisdictions"
+                  color="white"
+                  component={[Function]}
+                  disableRipple={true}
+                  id="2-edit-jurisdictions"
+                  style={
+                    Object {
+                      "marginLeft": 10,
+                    }
+                  }
+                  textColor="black"
+                  to={
+                    Object {
+                      "pathname": "/project/2/jurisdictions",
+                      "state": Object {
+                        "modal": true,
+                      },
+                    }
+                  }
+                >
+                  Jurisdictions
+                  <Icon
+                    style={
+                      Object {
+                        "fontSize": 18,
+                        "paddingLeft": 5,
+                      }
+                    }
+                  />
+                </WithTheme(Button)>
+                <WithTheme(Button)
+                  aria-label="Documents in this project"
+                  color="white"
+                  component={[Function]}
+                  disableRipple={true}
+                  style={
+                    Object {
+                      "marginLeft": 10,
+                    }
+                  }
+                  textColor="black"
+                  to={
+                    Object {
+                      "pathname": "/docs",
+                      "state": Object {
+                        "project": Object {
+                          "createdBy": "Admin",
+                          "createdByEmail": "test@test.test",
+                          "createdById": 1,
+                          "dateCreated": "2019-04-08T11:43:46.3034169",
+                          "dateLastEdited": "2019-04-18T13:27:51.454041",
+                          "id": 2,
+                          "lastEditedBy": "Aleksandra Zaryanova",
+                          "lastUsersCheck": 1555606985567,
+                          "name": "PROJECT",
+                          "projectJurisdictions": Array [],
+                          "projectUsers": Array [],
+                          "type": 1,
+                        },
+                        "projectDefined": true,
+                      },
+                    }
+                  }
+                >
+                  Documents
+                  <Icon
+                    style={
+                      Object {
+                        "fontSize": 18,
+                        "paddingLeft": 5,
+                      }
+                    }
+                  />
+                </WithTheme(Button)>
+                <WithTheme(Button)
+                  aria-label="Add and edit project coding scheme"
+                  color="white"
+                  component={[Function]}
+                  disableRipple={true}
+                  style={
+                    Object {
+                      "marginLeft": 10,
+                    }
+                  }
+                  textColor="black"
+                  to="/project/2/coding-scheme"
+                >
+                  Coding Scheme
+                  <Icon
+                    style={
+                      Object {
+                        "fontSize": 18,
+                        "paddingLeft": 5,
+                      }
+                    }
+                  />
+                </WithTheme(Button)>
+                <WithTheme(Button)
+                  aria-label="Add and edit project protocol"
+                  color="white"
+                  component={[Function]}
+                  disableRipple={true}
+                  style={
+                    Object {
+                      "marginLeft": 10,
+                    }
+                  }
+                  textColor="black"
+                  to="/project/2/protocol"
+                >
+                  Protocol
+                  <Icon
+                    style={
+                      Object {
+                        "fontSize": 18,
+                        "paddingLeft": 5,
+                      }
+                    }
+                  />
+                </WithTheme(Button)>
+                <WithTheme(Button)
+                  aria-label="Export validated questions"
+                  color="white"
+                  disableRipple={true}
+                  id="export-validated-2"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "marginLeft": 10,
+                    }
+                  }
+                  textColor="black"
+                >
+                  Export
+                  <Icon
+                    style={
+                      Object {
+                        "fontSize": 18,
+                        "paddingLeft": 5,
+                      }
+                    }
+                  />
+                </WithTheme(Button)>
+              </FlexGrid>
+            </FlexGrid>
+            <FlexGrid
+              align="stretch"
+              circular={false}
+              container={true}
+              flex={false}
+              justify="stretch"
+              padding={0}
+              raised={false}
+              style={Object {}}
+              type="row"
+            >
+              <FlexGrid
+                align="stretch"
+                circular={false}
+                container={true}
+                flex={true}
+                justify="stretch"
+                padding={30}
+                raised={false}
+                style={Object {}}
+                type="column"
+              >
+                <WithStyles(Typography)
+                  style={
+                    Object {
+                      "paddingBottom": 10,
+                    }
+                  }
+                  variant="body1"
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#7b7b7b",
+                        "fontSize": 14,
+                        "fontWeight": 500,
+                      }
+                    }
+                  >
+                    Created by:
+                     
+                  </span>
+                  Admin
+                   -
+                   
+                  <span
+                    style={
+                      Object {
+                        "color": "#7b7b7b",
+                        "fontSize": "0.8rem",
+                      }
+                    }
+                  >
+                    4/8/2019
+                  </span>
+                </WithStyles(Typography)>
+                <WithStyles(Typography)
+                  style={
+                    Object {
+                      "paddingBottom": 10,
+                    }
+                  }
+                  variant="body1"
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#7b7b7b",
+                        "fontSize": 14,
+                        "fontWeight": 500,
+                      }
+                    }
+                  >
+                    Last edited by:
+                     
+                  </span>
+                  Aleksandra Zaryanova
+                   -
+                   
+                  <span
+                    style={
+                      Object {
+                        "color": "#7b7b7b",
+                        "fontSize": "0.8rem",
+                      }
+                    }
+                  >
+                    4/18/2019
+                  </span>
+                </WithStyles(Typography)>
+                <WithStyles(Typography)
+                  style={
+                    Object {
+                      "paddingBottom": 10,
+                    }
+                  }
+                  variant="body1"
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#7b7b7b",
+                        "fontSize": 14,
+                        "fontWeight": 500,
+                      }
+                    }
+                  >
+                    Coordinator(s):
+                     
+                  </span>
+                  <span />
+                </WithStyles(Typography)>
+                <WithStyles(Typography)
+                  style={
+                    Object {
+                      "paddingBottom": 10,
+                    }
+                  }
+                  variant="body1"
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#7b7b7b",
+                        "fontSize": 14,
+                        "fontWeight": 500,
+                      }
+                    }
+                  >
+                    Coder(s):
+                     
+                  </span>
+                  <span />
+                </WithStyles(Typography)>
+                <WithStyles(Typography)
+                  variant="body1"
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#7b7b7b",
+                        "fontSize": 14,
+                        "fontWeight": 500,
+                      }
+                    }
+                  >
+                    Type:
+                     
+                  </span>
+                  <span>
+                    Legal Scan
+                  </span>
+                </WithStyles(Typography)>
+                <FlexGrid
+                  align="stretch"
+                  circular={false}
+                  container={false}
+                  flex={false}
+                  justify="stretch"
+                  padding={0}
+                  raised={false}
+                  style={Object {}}
+                  type="column"
+                />
+              </FlexGrid>
+              <FlexGrid
+                align="flex-end"
+                circular={false}
+                container={true}
+                flex={true}
+                justify="flex-end"
+                padding={30}
+                raised={false}
+                style={Object {}}
+                type="row"
+              >
+                <WithTheme(Button)
+                  aria-label="Code project"
+                  component={[Function]}
+                  listButton={true}
+                  raised={false}
+                  style={
+                    Object {
+                      "borderRadius": 3,
+                      "height": 50,
+                      "width": 150,
+                    }
+                  }
+                  to={
+                    Object {
+                      "pathname": "/project/2/code",
+                    }
+                  }
+                  value="Code"
+                />
+                <WithTheme(Button)
+                  aria-label="Validate project"
+                  component={[Function]}
+                  listButton={true}
+                  raised={false}
+                  style={
+                    Object {
+                      "borderRadius": 3,
+                      "height": 50,
+                      "marginLeft": 20,
+                      "width": 150,
+                    }
+                  }
+                  to={
+                    Object {
+                      "pathname": "/project/2/validate",
+                    }
+                  }
+                  value="Validate"
+                />
+              </FlexGrid>
+            </FlexGrid>
+          </FlexGrid>
+        </FlexGrid>
+      </WithStyles(Collapse)>
+    </FlexGrid>
+  </FlexGrid>
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "height": 30,
+      }
+    }
+  />
+</Fragment>
+`;

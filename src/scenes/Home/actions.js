@@ -1,0 +1,56 @@
+import makeActionCreator from 'utils/makeActionCreator'
+import { types as addEditTypes } from './scenes/AddEditProject/actions'
+
+export const types = {
+  GET_PROJECTS_SUCCESS: 'GET_PROJECTS_SUCCESS',
+  GET_PROJECTS_REQUEST: 'GET_PROJECTS_REQUEST',
+  GET_PROJECTS_FAIL: 'GET_PROJECTS_FAIL',
+  GET_PROJECT_USERS_REQUEST: 'GET_PROJECT_USERS_REQUEST',
+  GET_PROJECT_USERS_FAIL: 'GET_PROJECT_USERS_FAIL',
+  GET_PROJECT_USERS_SUCCESS: 'GET_PROJECT_USERS_SUCCESS',
+  TOGGLE_BOOKMARK: 'TOGGLE_BOOKMARK',
+  TOGGLE_BOOKMARK_SUCCESS: 'TOGGLE_BOOKMARK_SUCCESS',
+  TOGGLE_BOOKMARK_FAIL: 'TOGGLE_BOOKMARK_FAIL',
+  SORT_PROJECTS: 'SORT_PROJECTS',
+  UPDATE_PAGE: 'UPDATE_PAGE',
+  UPDATE_ROWS: 'UPDATE_ROWS',
+  UPDATE_SEARCH_VALUE: 'UPDATE_SEARCH_VALUE',
+  SORT_BOOKMARKED: 'SORT_BOOKMARKED',
+  FLUSH_STATE: 'FLUSH_STATE',
+  UPDATE_EDITED_FIELDS: 'UPDATE_EDITED_FIELDS',
+  ADD_JURISDICTION_TO_PROJECT: 'ADD_JURISDICTION_TO_PROJECT',
+  UPDATE_JURISDICTION_IN_PROJECT: 'UPDATE_JURISDICTION_IN_PROJECT',
+  ADD_PRESET_JURISDICTION_TO_PROJECT: 'ADD_PRESET_JURISDICTION_TO_PROJECT',
+  DELETE_JURISDICTION_FROM_PROJECT: 'DELETE_JURISDICTION_FROM_PROJECT',
+  RESET_FORM_ERROR: 'RESET_FORM_ERROR',
+  EXPORT_DATA_REQUEST: 'EXPORT_DATA_REQUEST',
+  EXPORT_DATA_SUCCESS: 'EXPORT_DATA_SUCCESS',
+  EXPORT_DATA_FAIL: 'EXPORT_DATA_FAIL',
+  CLEAR_PROJECT_TO_EXPORT: 'CLEAR_PROJECT_TO_EXPORT',
+  DISMISS_API_ERROR: 'DISMISS_API_ERROR',
+  UPDATE_VISIBLE_PROJECTS: 'UPDATE_VISIBLE_PROJECTS',
+  REMOVE_PROJECT: 'REMOVE_PROJECT',
+  TOGGLE_PROJECT: 'TOGGLE_PROJECT',
+  SET_PROJECT_TO_EXPORT: 'SET_PROJECT_TO_EXPORT',
+  ...addEditTypes
+}
+
+export default {
+  getProjectsRequest: () => ({ type: types.GET_PROJECTS_REQUEST, payload: { searchValue: undefined } }),
+  sortBookmarked: sortBookmarked => ({ type: types.SORT_BOOKMARKED, payload: { sortBookmarked } }),
+  sortProjects: sortBy => ({ type: types.SORT_PROJECTS, payload: { sortBy } }),
+  updatePage: page => ({ type: types.UPDATE_PAGE, payload: { page } }),
+  updateRows: rowsPerPage => ({ type: types.UPDATE_ROWS, payload: { rowsPerPage } }),
+  updateSearchValue: searchValue => ({ type: types.UPDATE_SEARCH_VALUE, payload: { searchValue } }),
+  updateProjectRequest: makeActionCreator(types.UPDATE_PROJECT_REQUEST, 'project'),
+  deleteProjectRequest: makeActionCreator(types.DELETE_PROJECT_REQUEST, 'project'),
+  toggleBookmark: makeActionCreator(types.TOGGLE_BOOKMARK, 'project'),
+  toggleBookmarkSuccess: makeActionCreator(types.TOGGLE_BOOKMARK_SUCCESS, 'payload'),
+  updateEditedFields: makeActionCreator(types.UPDATE_EDITED_FIELDS, 'projectId'),
+  exportDataRequest: makeActionCreator(types.EXPORT_DATA_REQUEST, 'exportType', 'user'),
+  clearProjectToExport: makeActionCreator(types.CLEAR_PROJECT_TO_EXPORT),
+  dismissApiError: makeActionCreator(types.DISMISS_API_ERROR),
+  getProjectUsers: makeActionCreator(types.GET_PROJECT_USERS_REQUEST, 'projectId', 'createdBy'),
+  toggleProject: makeActionCreator(types.TOGGLE_PROJECT, 'projectId'),
+  setProjectToExport: makeActionCreator(types.SET_PROJECT_TO_EXPORT, 'project')
+}

@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CodingScheme scene - AddEditQuestion Component should render correctly 1`] = `
+<FormModal
+  form="questionForm"
+  handleSubmit={[Function]}
+  initialValues={
+    Object {
+      "includeComment": false,
+      "isCategoryQuestion": false,
+      "possibleAnswers": Array [
+        Object {},
+        Object {},
+        Object {},
+      ],
+      "questionType": 4,
+    }
+  }
+  maxWidth="md"
+  open={true}
+  validate={[Function]}
+>
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={true}
+    flex={false}
+    justify="stretch"
+    padding="20px 20px 0"
+    raised={false}
+    style={
+      Object {
+        "minWidth": 890,
+      }
+    }
+    type="column"
+  >
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={true}
+      flex={false}
+      justify="stretch"
+      padding={0}
+      raised={false}
+      style={Object {}}
+      type="column"
+    >
+      <ModalTitle
+        title="Add New Question"
+      />
+      <ModalContent>
+        <FlexGrid
+          align="stretch"
+          circular={false}
+          container={true}
+          flex={false}
+          justify="stretch"
+          padding={0}
+          raised={false}
+          style={Object {}}
+          type="row"
+        >
+          <FlexGrid
+            align="stretch"
+            circular={false}
+            container={false}
+            flex={true}
+            justify="stretch"
+            padding="0 10px 20px 0"
+            raised={false}
+            style={Object {}}
+            type="column"
+          >
+            <Field
+              component={[Function]}
+              disabled={false}
+              label="Question"
+              multiline={true}
+              name="text"
+              placeholder="Enter question"
+              required={true}
+              shrinkLabel={true}
+              smallLabel={true}
+            />
+          </FlexGrid>
+          <FlexGrid
+            align="stretch"
+            circular={false}
+            container={false}
+            flex={false}
+            justify="stretch"
+            padding={0}
+            raised={false}
+            style={Object {}}
+            type="column"
+          >
+            <Field
+              component={[Function]}
+              defaultValue={4}
+              disabled={false}
+              fullWidth={true}
+              label="Answer Type"
+              name="questionType"
+              onChange={[Function]}
+              options={
+                Array [
+                  Object {
+                    "label": "Binary",
+                    "value": 1,
+                  },
+                  Object {
+                    "label": "Checkbox",
+                    "value": 3,
+                  },
+                  Object {
+                    "label": "Radio Button",
+                    "value": 4,
+                  },
+                  Object {
+                    "label": "Text Field",
+                    "value": 5,
+                  },
+                  Object {
+                    "label": "Tabbed",
+                    "value": 2,
+                  },
+                ]
+              }
+              required={true}
+            />
+          </FlexGrid>
+        </FlexGrid>
+        <FlexGrid
+          align="stretch"
+          circular={false}
+          container={true}
+          flex={false}
+          justify="stretch"
+          padding={0}
+          raised={false}
+          style={Object {}}
+          type="row"
+        >
+          <FlexGrid
+            align="stretch"
+            circular={false}
+            container={false}
+            flex={true}
+            justify="stretch"
+            padding="0 10px 20px 0"
+            raised={false}
+            style={Object {}}
+            type="column"
+          >
+            <Field
+              component={[Function]}
+              disabled={false}
+              label="Coding directions"
+              name="hint"
+              placeholder="Enter any special directions or considerations to display when coding this question"
+              shrinkLabel={true}
+              smallLabel={true}
+            />
+          </FlexGrid>
+        </FlexGrid>
+        <FieldArray
+          answerType={4}
+          canModify={true}
+          component={[Function]}
+          isEdit={false}
+          name="possibleAnswers"
+        />
+        <FlexGrid
+          align="stretch"
+          circular={false}
+          container={true}
+          flex={false}
+          justify="stretch"
+          padding={0}
+          raised={false}
+          style={Object {}}
+          type="row"
+        >
+          <FlexGrid
+            align="stretch"
+            circular={false}
+            container={false}
+            flex={true}
+            justify="stretch"
+            padding={0}
+            raised={false}
+            style={
+              Object {
+                "paddingLeft": "47px",
+              }
+            }
+            type="column"
+          >
+            <Field
+              component={[Function]}
+              disabled={false}
+              label="Include comment box"
+              name="includeComment"
+            />
+          </FlexGrid>
+        </FlexGrid>
+      </ModalContent>
+    </FlexGrid>
+    <WithStyles(ModalActions)
+      actions={
+        Array [
+          Object {
+            "onClick": [Function],
+            "otherProps": Object {
+              "aria-label": "Cancel and close form",
+            },
+            "type": "button",
+            "value": "Cancel",
+          },
+          Object {
+            "disabled": undefined,
+            "otherProps": Object {
+              "aria-label": "Save form",
+            },
+            "type": "submit",
+            "value": <React.Fragment>
+              Add
+            </React.Fragment>,
+          },
+        ]
+      }
+      style={
+        Object {
+          "margin": 0,
+          "paddingBottom": 15,
+          "paddingTop": 15,
+        }
+      }
+    />
+  </FlexGrid>
+</FormModal>
+`;

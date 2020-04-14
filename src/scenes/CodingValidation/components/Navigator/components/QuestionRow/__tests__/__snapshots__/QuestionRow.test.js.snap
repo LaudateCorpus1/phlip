@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Coding scene - QuestionRow should render correctly 1`] = `
+<Fragment>
+  <div
+    className="undefined"
+    key="2-scaffold-0"
+    style={
+      Object {
+        "left": 0,
+      }
+    }
+  />
+  <div
+    aria-label="Click to show this question"
+    onClick={[Function]}
+    role="row"
+    style={
+      Object {
+        "alignItems": "center",
+        "cursor": "pointer",
+        "display": "flex",
+        "height": 40,
+        "marginLeft": 0,
+        "outline": 0,
+        "position": "relative",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "maxHeight": 20,
+          "maxWidth": 20,
+          "minHeight": 20,
+          "minWidth": 20,
+          "outline": 0,
+        }
+      }
+      tabIndex={-1}
+    />
+    <WithStyles(Typography)
+      aria-label="Question number and text"
+      noWrap={true}
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 12,
+          "fontWeight": 300,
+          "outline": 0,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span>
+        3. 
+      </span>
+      question 3
+    </WithStyles(Typography)>
+  </div>
+</Fragment>
+`;

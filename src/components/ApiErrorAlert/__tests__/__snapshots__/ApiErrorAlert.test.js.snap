@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ApiErrorAlert component should render correctly 1`] = `
+<Alert
+  actions={Array []}
+  closeButton={
+    Object {
+      "aria-label": "Dismiss alert",
+      "value": "Dismiss",
+    }
+  }
+  hideClose={false}
+  onCloseAlert={[Function]}
+  open={true}
+  title={
+    <React.Fragment>
+      <WithTheme(Icon)
+        color="red"
+        size={30}
+        style={
+          Object {
+            "paddingRight": 10,
+          }
+        }
+      >
+        <Icon
+          style={
+            Object {
+              "height": 30,
+              "width": 30,
+            }
+          }
+        />
+      </WithTheme(Icon)>
+      Uh-oh! Something went wrong.
+    </React.Fragment>
+  }
+>
+  <WithStyles(Typography)
+    style={
+      Object {
+        "whiteSpace": "pre-wrap",
+      }
+    }
+    variant="body1"
+  >
+    <div>
+      This is the error alert content.
+    </div>
+     Please try again later.
+  </WithStyles(Typography)>
+</Alert>
+`;

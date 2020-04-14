@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuestionCard - QuestionContent - SelectionControlQuestion should render correctly 1`] = `
+<WithStyles(FormControl)
+  component="fieldset"
+  style={
+    Object {
+      "flex": "1 1 auto",
+    }
+  }
+>
+  <WithStyles(FormLabel)
+    component="legend"
+    id="question_text"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  />
+  <WithStyles(FormGroup) />
+</WithStyles(FormControl)>
+`;

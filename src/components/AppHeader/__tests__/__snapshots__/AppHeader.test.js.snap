@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppHeader it should render correctly 1`] = `
+<FlexGrid
+  align="center"
+  circular={false}
+  container={true}
+  flex={false}
+  justify="space-between"
+  padding={0}
+  raised={false}
+  style={
+    Object {
+      "backgroundColor": "#3d316a",
+      "borderRadius": 0,
+      "boxShadow": "0 1px 2px 0 rgba(34,36,38,.15)",
+      "height": 43,
+      "minHeight": 43,
+      "padding": "0 30px 0 0",
+      "position": "relative",
+    }
+  }
+  type="row"
+>
+  <HeaderTabs
+    onTabChange={[MockFunction]}
+    tabs={
+      Array [
+        Object {
+          "active": true,
+          "icon": "dvr",
+          "label": "Project List",
+          "location": "/home",
+        },
+        Object {
+          "active": false,
+          "icon": "description",
+          "label": "Document Management",
+          "location": "/docs",
+        },
+      ]
+    }
+  />
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={false}
+    flex={false}
+    justify="stretch"
+    padding={0}
+    raised={false}
+    style={Object {}}
+    type="column"
+  >
+    <Logo
+      height={30}
+      width="auto"
+    />
+  </FlexGrid>
+  <UserHeader
+    handleLogoutUser={[MockFunction]}
+    handleOpenAdminPage={[MockFunction]}
+    handleOpenHelpPdf={[MockFunction]}
+    handleTabChange={[MockFunction]}
+    handleToggleMenu={[MockFunction]}
+    open={false}
+    user={
+      Object {
+        "firstName": "test",
+        "lastName": "user",
+      }
+    }
+  />
+</FlexGrid>
+`;

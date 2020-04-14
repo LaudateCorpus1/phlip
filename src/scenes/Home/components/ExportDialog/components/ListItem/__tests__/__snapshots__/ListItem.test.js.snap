@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home - Export Dialog - List Item should render correctly 1`] = `
+<WithStyles(ListItem)
+  style={
+    Object {
+      "fontSize": ".875rem",
+      "paddingBottom": 8,
+      "paddingTop": 8,
+    }
+  }
+>
+  <FlexGrid
+    align="center"
+    circular={false}
+    container={true}
+    flex={false}
+    justify="stretch"
+    padding={0}
+    raised={false}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+    type="row"
+  >
+    <Connect(Avatar)
+      small={true}
+      userId={3}
+    />
+    <WithStyles(Typography)
+      style={
+        Object {
+          "flex": "1 1 auto",
+          "fontSize": ".875rem",
+          "padding": "0 16px",
+        }
+      }
+    >
+      Test User
+    </WithStyles(Typography)>
+    <IconButton
+      color="white"
+      disabled={false}
+      iconSize={24}
+      iconStyle={
+        Object {
+          "color": "black",
+        }
+      }
+      onClick={[MockFunction]}
+      tooltipText=""
+    >
+      file_download
+    </IconButton>
+  </FlexGrid>
+</WithStyles(ListItem)>
+`;

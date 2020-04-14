@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Document Management - Upload scene should render correctly 1`] = `
+<WithStyles(Modal)
+  hideOverflow={true}
+  maxWidth="lg"
+  onClose={[Function]}
+  open={true}
+>
+  <FlexGrid
+    align="center"
+    circular={false}
+    container={true}
+    flex={false}
+    justify="stretch"
+    padding={0}
+    raised={false}
+    style={Object {}}
+    type="row"
+  >
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={false}
+      flex={true}
+      justify="stretch"
+      padding={0}
+      raised={false}
+      style={Object {}}
+      type="column"
+    >
+      <ModalTitle
+        buttons={false}
+        title="Upload Documents"
+      />
+    </FlexGrid>
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={false}
+      flex={false}
+      justify="stretch"
+      padding="0 24px 0 0"
+      raised={false}
+      style={Object {}}
+      type="column"
+    >
+      <WithTheme(Button)
+        color="white"
+        download={true}
+        href="/PHLIP-Upload-Template.xlsx"
+        style={
+          Object {
+            "color": "black",
+          }
+        }
+      >
+        <Icon
+          style={
+            Object {
+              "fontSize": 18,
+              "marginRight": 10,
+            }
+          }
+        />
+         Excel Template
+      </WithTheme(Button)>
+    </FlexGrid>
+  </FlexGrid>
+  <WithStyles(Divider) />
+  <ModalContent
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "100%",
+      }
+    }
+  >
+    <FlexGrid
+      align="center"
+      circular={false}
+      container={true}
+      flex={false}
+      justify="space-between"
+      padding={10}
+      raised={false}
+      style={Object {}}
+      type="row"
+    >
+      <FileUpload
+        allowFolderDrop={true}
+        allowMultiple={true}
+        allowedExtensions={
+          Array [
+            "doc",
+            "docx",
+            "pdf",
+            "rtf",
+            "odt",
+          ]
+        }
+        allowedFileTypes=".doc,.docx,.pdf,.rtf,.odt,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        buttonText="Select Files"
+        containerBgColor="#f5fafa"
+        containerBorderColor="#99D0E9"
+        containerText="or drag and drop here"
+        handleAddFiles={[Function]}
+        maxSize={16000000}
+        numOfFiles={0}
+        overwriteAlert={
+          Object {
+            "enable": false,
+          }
+        }
+      />
+      <FlexGrid
+        align="stretch"
+        circular={false}
+        container={false}
+        flex={false}
+        justify="stretch"
+        padding={10}
+        raised={false}
+        style={Object {}}
+        type="column"
+      />
+      <FileUpload
+        allowFolderDrop={false}
+        allowMultiple={false}
+        allowedExtensions={
+          Array [
+            "xlsx",
+          ]
+        }
+        allowedFileTypes="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel"
+        buttonText="Select excel file"
+        containerBgColor="#f4f9ef"
+        containerBorderColor="#c2e3b6"
+        containerText="or drag and drop here"
+        handleAddFiles={[Function]}
+        infoSheetSelected={false}
+        maxSize={16000000}
+        numOfFiles={0}
+        overwriteAlert={
+          Object {
+            "enable": true,
+            "text": "Selecting a new Excel file will erase existing information. Do you want to continue?",
+          }
+        }
+      />
+    </FlexGrid>
+  </ModalContent>
+  <WithStyles(Divider) />
+  <FlexGrid
+    align="center"
+    circular={false}
+    container={true}
+    flex={false}
+    justify="space-between"
+    padding="0 0 0 20px"
+    raised={false}
+    style={Object {}}
+    type="row"
+  >
+    <WithStyles(Typography)
+      style={
+        Object {
+          "fontSize": "0.875rem",
+        }
+      }
+    >
+      File Count: 
+      0
+    </WithStyles(Typography)>
+    <WithStyles(ModalActions)
+      actions={
+        Array [
+          Object {
+            "onClick": [Function],
+            "otherProps": Object {
+              "aria-label": "Close modal",
+              "id": "uploadCloseBtn",
+            },
+            "type": "button",
+            "value": "Close",
+          },
+        ]
+      }
+    />
+  </FlexGrid>
+</WithStyles(Modal)>
+`;

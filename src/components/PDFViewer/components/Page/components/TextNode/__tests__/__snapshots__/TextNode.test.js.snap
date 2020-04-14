@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PDFViewer - Page - TextNode component should render correctly 1`] = `
+<TextNode
+  allStyles={
+    Object {
+      "g_d0_f1": Object {
+        "ascent": 0.726,
+        "descent": -0.274,
+        "fontFamily": "monospace",
+        "vertical": false,
+      },
+      "g_d0_f2": Object {
+        "ascent": 0.726,
+        "descent": -0.274,
+        "fontFamily": "monospace",
+        "vertical": false,
+      },
+      "g_d0_f4": Object {
+        "ascent": 0.717,
+        "descent": -0.283,
+        "fontFamily": "monospace",
+        "vertical": false,
+      },
+      "g_d0_f5": Object {
+        "ascent": 0.717,
+        "descent": -0.283,
+        "fontFamily": "monospace",
+        "vertical": false,
+      },
+    }
+  }
+  canvasContext={
+    Object {
+      "font": "9px monospace",
+      "measureText": [Function],
+    }
+  }
+  textItem={
+    Object {
+      "dir": "ltr",
+      "fontName": "g_d0_f1",
+      "height": 9,
+      "str": "OAC 3701-52-04, OAC 3701-52-04",
+      "transform": Array [
+        9,
+        0,
+        0,
+        9,
+        54,
+        764.56599998,
+      ],
+      "width": 142.05599999999998,
+    }
+  }
+  viewport={
+    Object {
+      "height": 792,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "scale": 1,
+      "transform": Array [
+        1,
+        0,
+        0,
+        -1,
+        0,
+        792,
+      ],
+      "viewBox": Array [
+        0,
+        0,
+        612,
+        792,
+      ],
+      "width": 612,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "fontFamily": "monospace",
+        "fontSize": 9,
+        "height": 11,
+        "left": 54,
+        "margin": 0,
+        "top": 18.900000019999986,
+        "transform": "scaleX(NaN)",
+      }
+    }
+  >
+    OAC 3701-52-04, OAC 3701-52-04
+  </div>
+</TextNode>
+`;

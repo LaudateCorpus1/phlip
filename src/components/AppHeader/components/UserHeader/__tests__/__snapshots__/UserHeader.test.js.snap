@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserHeader should render correctly 1`] = `
+<FlexGrid
+  align="center"
+  circular={false}
+  container={true}
+  flex={false}
+  justify="stretch"
+  padding={0}
+  raised={false}
+  style={Object {}}
+  type="row"
+>
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={false}
+    flex={false}
+    justify="stretch"
+    padding={8}
+    raised={false}
+    style={Object {}}
+    type="column"
+  >
+    <Greeting
+      firstName="Test"
+      lastName="User"
+      role="Coordinator"
+    />
+  </FlexGrid>
+  <AvatarMenu
+    initials="TU"
+    onLogoutUser={[MockFunction]}
+    onOpenAdminPage={[MockFunction]}
+    onOpenHelpPdf={[MockFunction]}
+    onToggleMenu={[MockFunction]}
+    open={false}
+    role="Coordinator"
+    userName="Test User"
+  />
+</FlexGrid>
+`;

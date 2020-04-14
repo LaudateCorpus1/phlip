@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PDFViewer - Page component should render correctly 1`] = `
+<Page
+  allowSelection={false}
+  annotations={Array []}
+  cancelAnnotation={[MockFunction]}
+  deleteAnnotationIndex={null}
+  id={0}
+  onFinishRendering={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          0,
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  page={
+    Object {
+      "getViewport": [Function],
+    }
+  }
+  pendingAnnotations={Array []}
+  saveAnnotation={[MockFunction]}
+  showAvatars={false}
+  textContent={
+    Object {
+      "items": Array [],
+    }
+  }
+  viewerDimensions={
+    Object {
+      "height": 760,
+      "width": 732,
+    }
+  }
+>
+  <div
+    className="page"
+    data-page-number={0}
+    onMouseUp={[Function]}
+    style={
+      Object {
+        "height": 792,
+        "width": 612,
+      }
+    }
+  >
+    <div
+      className="canvasWrapper"
+      style={
+        Object {
+          "height": 792,
+          "position": "relative",
+          "width": 612,
+        }
+      }
+    >
+      <canvas
+        height={792}
+        id="page-0-canvas"
+        style={
+          Object {
+            "height": "792px",
+            "width": "612px",
+          }
+        }
+        width={612}
+      />
+    </div>
+    <div
+      className="annotationLayer"
+      data-page-number={0}
+      id="page-0-annotations"
+      style={
+        Object {
+          "height": 792,
+          "width": 612,
+        }
+      }
+    />
+    <div
+      className="textLayer textLayerNoAnno"
+      data-page-number={0}
+      id="text-layer-page-0"
+      style={
+        Object {
+          "height": 792,
+          "width": 612,
+        }
+      }
+    />
+  </div>
+</Page>
+`;

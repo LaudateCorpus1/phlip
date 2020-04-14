@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DocumentManagement - DocList should render correctly 1`] = `
+<FlexGrid
+  align="stretch"
+  circular={false}
+  container={true}
+  flex={true}
+  justify="stretch"
+  padding={0}
+  raised={false}
+  style={
+    Object {
+      "overflow": "hidden",
+    }
+  }
+  type="column"
+>
+  <FlexGrid
+    align="center"
+    circular={false}
+    container={true}
+    flex={false}
+    justify="space-between"
+    padding="6px 24px"
+    raised={false}
+    style={
+      Object {
+        "height": 56,
+      }
+    }
+    type="row"
+  >
+    <WithStyles(Dropdown)
+      SelectDisplayProps={
+        Object {
+          "style": Object {
+            "minWidth": 140,
+            "paddingBottom": 3,
+          },
+        }
+      }
+      input={
+        Object {
+          "onChange": [Function],
+          "value": "bulk",
+        }
+      }
+      options={
+        Array [
+          Object {
+            "disabled": true,
+            "label": "Actions",
+            "value": "bulk",
+          },
+          Object {
+            "label": "Approve",
+            "value": "approve",
+          },
+          Object {
+            "label": "Assign Jurisdiction",
+            "value": "jurisdiction",
+          },
+          Object {
+            "label": "Assign Project",
+            "value": "project",
+          },
+          Object {
+            "label": "Unassign Project",
+            "value": "removeproject",
+          },
+        ]
+      }
+      style={
+        Object {
+          "color": "#757575",
+          "fontSize": 13,
+          "fontWeight": 400,
+        }
+      }
+    />
+    <FlexGrid
+      align="center"
+      circular={false}
+      container={true}
+      flex={false}
+      justify="stretch"
+      padding={0}
+      raised={false}
+      style={Object {}}
+      type="row"
+    >
+      <WithStyles(Switch)
+        onChange={[Function]}
+      />
+      <WithStyles(Typography)
+        style={
+          Object {
+            "fontWeight": 500,
+          }
+        }
+        variant="caption"
+      >
+        Show All Documents
+      </WithStyles(Typography)>
+    </FlexGrid>
+  </FlexGrid>
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={false}
+    flex={true}
+    justify="stretch"
+    padding={0}
+    raised={false}
+    style={Object {}}
+    type="column"
+  >
+    <AutoSizer
+      disableHeight={false}
+      disableWidth={false}
+      onResize={[Function]}
+      style={Object {}}
+    >
+      <Component />
+    </AutoSizer>
+  </FlexGrid>
+  <Table>
+    <WithStyles(TableFooter)>
+      <WithStyles(TableRow)>
+        <WithStyles(TablePagination)
+          count={1}
+          onChangePage={[Function]}
+          onChangeRowsPerPage={[Function]}
+          page={0}
+          rowsPerPage="10"
+        />
+      </WithStyles(TableRow)>
+    </WithStyles(TableFooter)>
+  </Table>
+</FlexGrid>
+`;

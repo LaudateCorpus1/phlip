@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CodingValidation scene - Navigator should render correctly 1`] = `
+<Resizable
+  defaultSize={
+    Object {
+      "height": "100%",
+      "width": 300,
+    }
+  }
+  enable={
+    Object {
+      "bottom": false,
+      "bottomLeft": false,
+      "bottomRight": false,
+      "left": false,
+      "right": true,
+      "top": false,
+      "topLeft": false,
+      "topRight": false,
+    }
+  }
+  grid={
+    Array [
+      1,
+      1,
+    ]
+  }
+  handleComponent={
+    Object {
+      "right": [Function],
+    }
+  }
+  handleStyles={
+    Object {
+      "right": Object {
+        "alignItems": "center",
+        "display": "flex",
+        "height": "100%",
+        "justifyContent": "center",
+        "minWidth": 15,
+        "paddingLeft": 2,
+        "position": "unset",
+        "right": 0,
+        "top": "unset",
+        "width": 15,
+      },
+    }
+  }
+  lockAspectRatio={false}
+  lockAspectRatioExtraHeight={0}
+  lockAspectRatioExtraWidth={0}
+  maxWidth="90%"
+  minWidth="40"
+  onResize={[Function]}
+  onResizeStart={[Function]}
+  onResizeStop={[Function]}
+  resizeRatio={1}
+  scale={1}
+  size={
+    Object {
+      "height": "100%",
+      "width": 300,
+    }
+  }
+  style={
+    Object {
+      "display": "flex",
+      "position": "unset",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#3A4041",
+        "borderRight": 0,
+        "display": "flex",
+        "flex": "1 1 auto",
+        "outline": "none",
+        "overflow": "hidden",
+        "paddingRight": 10,
+      }
+    }
+  >
+    <List
+      autoHeight={false}
+      estimatedRowSize={30}
+      height={0}
+      noRowsRenderer={[Function]}
+      onRowsRendered={[Function]}
+      onScroll={[Function]}
+      overscanIndicesGetter={[Function]}
+      overscanRowCount={0}
+      rowCount={3}
+      rowHeight={[Function]}
+      rowRenderer={[Function]}
+      scrollToAlignment="auto"
+      scrollToIndex={-1}
+      style={
+        Object {
+          "height": 0,
+          "outline": "none",
+          "paddingLeft": 10,
+          "paddingRight": 20,
+        }
+      }
+      width={300}
+    />
+  </div>
+</Resizable>
+`;

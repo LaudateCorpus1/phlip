@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddEditProject -- DetailRow component should render correctly 1`] = `
+<FlexGrid
+  align="stretch"
+  circular={false}
+  container={false}
+  flex={false}
+  justify="stretch"
+  padding="0 0 25px"
+  raised={false}
+  style={Object {}}
+  type="column"
+>
+  <Field
+    component={[Function]}
+    disableUnderline={false}
+    disabled={false}
+    label="Type"
+    name="type"
+    type="text"
+  />
+</FlexGrid>
+`;

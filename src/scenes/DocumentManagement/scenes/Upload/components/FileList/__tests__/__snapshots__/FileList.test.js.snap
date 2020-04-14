@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Upload -- FileList should render correctly 1`] = `
+<Grid
+  columnSizing="1fr"
+  rowSizing="55px 1fr"
+  style={
+    Object {
+      "flex": 1,
+      "overflow": "auto",
+    }
+  }
+>
+  <Grid
+    columnSizing="20px minmax(300px, 1fr) 210px 222px 215px 45px"
+    rowSizing="1fr"
+    style={
+      Object {
+        "padding": "10px 0 0 0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "borderBottom": "1px solid black",
+        }
+      }
+    />
+    <div
+      key="file-list-col-0"
+      style={
+        Object {
+          "borderBottom": "1px solid black",
+          "fontSize": "18px",
+          "padding": "10px 10px",
+        }
+      }
+    >
+      File Name
+    </div>
+    <div
+      key="file-list-col-1"
+      style={
+        Object {
+          "borderBottom": "1px solid black",
+          "fontSize": "18px",
+          "padding": "10px 10px",
+        }
+      }
+    >
+      Jurisdiction
+    </div>
+    <div
+      key="file-list-col-2"
+      style={
+        Object {
+          "borderBottom": "1px solid black",
+          "fontSize": "18px",
+          "padding": "10px 10px",
+        }
+      }
+    >
+      Effective Date
+    </div>
+    <div
+      key="file-list-col-3"
+      style={
+        Object {
+          "borderBottom": "1px solid black",
+          "fontSize": "18px",
+          "padding": "10px 10px",
+        }
+      }
+    >
+      Citation
+    </div>
+    <div
+      style={
+        Object {
+          "borderBottom": "1px solid black",
+        }
+      }
+    />
+  </Grid>
+  <Grid
+    autoRowSizing="60px"
+    columnSizing="1fr"
+    id="uploadFileList"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  />
+</Grid>
+`;

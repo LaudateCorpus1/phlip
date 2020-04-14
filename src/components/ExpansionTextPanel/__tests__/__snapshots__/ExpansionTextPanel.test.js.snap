@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExpansionTextPanel should render correctly 1`] = `
+<Row
+  component={
+    <WithStyles(Grid)
+      item={true}
+    />
+  }
+  displayFlex={true}
+  flex={true}
+  reverse={false}
+  style={
+    Object {
+      "alignItems": "center",
+      "overflow": "hidden",
+    }
+  }
+>
+  <WithStyles(Typography)
+    noWrap={true}
+    style={
+      Object {
+        "color": "#b2b4b4",
+        "flex": 1,
+        "minWidth": 0,
+      }
+    }
+    tooltipText="tooltip text"
+  >
+    This is the text of the panel
+  </WithStyles(Typography)>
+  <Manager>
+    <Reference
+      innerRef={[Function]}
+    >
+      <Component />
+    </Reference>
+    <Popper
+      eventsEnabled={false}
+      placement="top-end"
+    >
+      <Component />
+    </Popper>
+  </Manager>
+</Row>
+`;

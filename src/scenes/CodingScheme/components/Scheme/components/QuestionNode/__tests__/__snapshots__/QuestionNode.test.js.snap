@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CodingScheme -- Scheme -- QuestionNode should render correctly 1`] = `
+<div
+  style={
+    Object {
+      "left": 50,
+    }
+  }
+  tabIndex={-1}
+>
+  <div>
+    <div
+      tabIndex={-1}
+    >
+      <div
+        style={
+          Object {
+            "backgroundColor": "white",
+            "border": "none",
+            "opacity": 1,
+            "padding": "5px 10px",
+            "width": 830,
+          }
+        }
+        tabIndex={-1}
+      >
+        <div
+          role="listitem"
+          tabIndex={0}
+        >
+          <div
+            role="button"
+            tabIndex={0}
+          >
+            <WithStyles(Tooltip)
+              placement="bottom"
+              text="Drag to reorder"
+            >
+              <WithTheme(Icon)
+                color="black"
+                size="24"
+              >
+                reorder
+              </WithTheme(Icon)>
+            </WithStyles(Tooltip)>
+          </div>
+          <WithStyles(CardContent)
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flex": 1,
+                "padding": 5,
+              }
+            }
+          >
+            <WithStyles(Typography)
+              component="h4"
+              noWrap={true}
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              la la la
+            </WithStyles(Typography)>
+          </WithStyles(CardContent)>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

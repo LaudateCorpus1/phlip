@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home - Export Dialog should render correctly 1`] = `
+<WithStyles(Modal)
+  id="export-modal"
+  onClose={[Function]}
+  open={true}
+>
+  <ModalTitle
+    title="Choose export type"
+  />
+  <WithStyles(Divider) />
+  <ModalContent
+    style={
+      Object {
+        "minWidth": 400,
+        "padding": 0,
+      }
+    }
+  >
+    <WithStyles(List)>
+      <ListItem
+        disabled={false}
+        inProgress={false}
+        isSubItem={false}
+        item={
+          Object {
+            "displayText": "Codebook",
+          }
+        }
+        onExport={[Function]}
+        showAvatar={false}
+      />
+      <ListSection
+        expanded={false}
+        inProgress={
+          Object {
+            "type": null,
+            "user": null,
+          }
+        }
+        onExpand={[Function]}
+        onExport={[Function]}
+        section="numeric"
+        sectionText="Coded Data - Numeric"
+      />
+      <ListSection
+        expanded={false}
+        inProgress={
+          Object {
+            "type": null,
+            "user": null,
+          }
+        }
+        onExpand={[Function]}
+        onExport={[Function]}
+        section="text"
+        sectionText="Coded Data - Text"
+      />
+    </WithStyles(List)>
+  </ModalContent>
+  <WithStyles(ModalActions)
+    actions={
+      Array [
+        Object {
+          "onClick": [Function],
+          "otherProps": Object {
+            "aria-label": "Close modal",
+          },
+          "type": "button",
+          "value": "Close",
+        },
+      ]
+    }
+  />
+</WithStyles(Modal)>
+`;

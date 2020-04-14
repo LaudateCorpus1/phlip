@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CodingValidation -- FooterNavigate component should render correctly 1`] = `
+<FlexGrid
+  align="center"
+  circular={false}
+  container={true}
+  flex={false}
+  justify="space-between"
+  padding="0 10px"
+  raised={false}
+  style={
+    Object {
+      "alignSelf": "flex-end",
+      "height": 60,
+    }
+  }
+  type="row"
+/>
+`;

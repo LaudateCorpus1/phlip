@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home scene - AddEditProject scene should render correctly 1`] = `
+<Fragment>
+  <Alert
+    actions={
+      Array [
+        Object {
+          "onClick": [Function],
+          "type": "button",
+          "value": "Delete",
+        },
+      ]
+    }
+    closeButton={Object {}}
+    hideClose={false}
+    onCloseAlert={[Function]}
+    open={false}
+    title=""
+  >
+    <WithStyles(Typography)
+      variant="body1"
+    />
+  </Alert>
+  <FormModal
+    asyncBlurFields={
+      Array [
+        "name",
+      ]
+    }
+    asyncValidate={[Function]}
+    form="projectForm"
+    formStyle={
+      Object {
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "100%",
+      }
+    }
+    handleSubmit={[Function]}
+    initialValues={Object {}}
+    maxWidth="lg"
+    onClose={[Function]}
+    open={true}
+    style={
+      Object {
+        "height": "90%",
+        "width": "80%",
+      }
+    }
+  >
+    <ModalTitle
+      title="Create New Project"
+    />
+    <WithStyles(Divider) />
+    <ModalContent>
+      <FlexGrid
+        align="stretch"
+        circular={false}
+        container={true}
+        flex={false}
+        justify="stretch"
+        padding="30px 15px 0"
+        raised={false}
+        style={
+          Object {
+            "minHeight": 230,
+            "minWidth": 500,
+          }
+        }
+        type="column"
+      >
+        <DetailRow
+          component={[Function]}
+          disabled={false}
+          fullWidth={true}
+          label="Project Name"
+          name="name"
+          onKeyPress={[Function]}
+          placeholder="Enter Project Name"
+          required={true}
+          shrinkLabel={true}
+          validate={[Function]}
+        />
+        <DetailRow
+          component={[Function]}
+          defaultValue={1}
+          disabled={false}
+          id="type"
+          label="Type"
+          name="type"
+          options={
+            Array [
+              Object {
+                "label": "Legal Scan",
+                "value": 1,
+              },
+              Object {
+                "label": "Policy Surveillance",
+                "value": 2,
+              },
+            ]
+          }
+          required={true}
+          shrinkLabel={false}
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        />
+        <FlexGrid
+          align="stretch"
+          circular={false}
+          container={true}
+          flex={false}
+          justify="stretch"
+          padding="0 0 25px"
+          raised={false}
+          style={Object {}}
+          type="column"
+        >
+          <FlexGrid
+            align="center"
+            circular={false}
+            container={true}
+            flex={false}
+            justify="stretch"
+            padding={0}
+            raised={false}
+            style={Object {}}
+            type="row"
+          >
+            <WithStyles(InputLabel)
+              style={
+                Object {
+                  "flexShrink": 0,
+                  "marginRight": 5,
+                }
+              }
+            >
+              Project Users
+            </WithStyles(InputLabel)>
+            <WithTheme(Button)
+              color="accent"
+              onClick={[Function]}
+              raised={false}
+              size="small"
+              style={
+                Object {
+                  "marginRight": 15,
+                  "padding": 0,
+                }
+              }
+              variant="text"
+            >
+              <WithStyles(Typography)
+                color="secondary"
+                variant="caption"
+              >
+                - Add User
+              </WithStyles(Typography)>
+            </WithTheme(Button)>
+          </FlexGrid>
+          <FlexGrid
+            align="stretch"
+            circular={false}
+            container={true}
+            flex={false}
+            justify="stretch"
+            padding={0}
+            raised={false}
+            style={Object {}}
+            type="column"
+          />
+        </FlexGrid>
+      </FlexGrid>
+    </ModalContent>
+    <WithStyles(ModalActions)
+      actions={
+        Array [
+          Object {
+            "onClick": [Function],
+            "otherProps": Object {
+              "aria-label": "Cancel edit view",
+            },
+            "type": "button",
+            "value": "Cancel",
+          },
+          Object {
+            "disabled": false,
+            "otherProps": Object {
+              "aria-label": "Save form",
+            },
+            "type": "submit",
+            "value": <React.Fragment>
+              Create
+            </React.Fragment>,
+          },
+        ]
+      }
+    />
+  </FormModal>
+</Fragment>
+`;

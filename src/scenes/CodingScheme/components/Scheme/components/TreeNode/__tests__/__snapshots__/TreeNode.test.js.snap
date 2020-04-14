@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CodingScheme - Scheme - TreeNode component should render correctly 1`] = `
+<div
+  className="node"
+  node={Object {}}
+  path={
+    Array [
+      0,
+    ]
+  }
+  style={
+    Object {
+      "height": 75,
+      "left": 0,
+      "position": "absolute",
+      "top": 0,
+      "width": "100%",
+    }
+  }
+  tabIndex={-1}
+>
+  <div
+    className="lineBlock lineHalfHorizontalRight"
+    key="pre_1"
+    style={
+      Object {
+        "width": 100,
+      }
+    }
+    tabIndex={-1}
+  />
+</div>
+`;

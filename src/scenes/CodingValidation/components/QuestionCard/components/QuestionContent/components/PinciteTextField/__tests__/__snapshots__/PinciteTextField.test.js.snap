@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuestionCard - QuestionContent - PinciteTextField should render correctly 1`] = `
+<SimpleInput
+  InputProps={
+    Object {
+      "inputProps": Object {
+        "aria-label": "Pincite",
+        "style": Object {
+          "paddingBottom": 2,
+        },
+        "wrap": "soft",
+      },
+    }
+  }
+  disabled={false}
+  key="10-pincite"
+  multiline={true}
+  placeholder="Enter pincite"
+  style={Object {}}
+  value="this is my pincite"
+/>
+`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Autocomplete should render correctly 1`] = `
+<Autosuggest
+  alwaysRenderSuggestions={false}
+  focusInputOnSuggestionClick={true}
+  getSuggestionValue={[MockFunction]}
+  highlightFirstSuggestion={false}
+  id="1"
+  inputProps={
+    Object {
+      "InputProps": Object {},
+      "TextFieldProps": Object {},
+      "onChange": [MockFunction],
+      "value": "",
+    }
+  }
+  multiSection={false}
+  onSuggestionSelected={[MockFunction]}
+  onSuggestionsClearRequested={[MockFunction]}
+  onSuggestionsFetchRequested={[MockFunction]}
+  renderInputComponent={[Function]}
+  renderSuggestion={[MockFunction]}
+  renderSuggestionsContainer={[Function]}
+  shouldRenderSuggestions={[Function]}
+  suggestions={Array []}
+  theme={
+    Object {
+      "container": undefined,
+      "sectionContainer": undefined,
+      "suggestion": undefined,
+      "suggestionsContainerOpen": undefined,
+      "suggestionsList": undefined,
+    }
+  }
+/>
+`;

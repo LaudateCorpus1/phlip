@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DocumentView scene should render correctly 1`] = `
+<FlexGrid
+  align="stretch"
+  circular={false}
+  container={true}
+  flex={true}
+  justify="stretch"
+  padding="12px 20px 20px 20px"
+  raised={false}
+  style={Object {}}
+  type="column"
+>
+  <withRouter(WithTheme(PageHeader))
+    onBackButtonClick={[Function]}
+    pageTitle="View Document"
+    projectName=""
+    protocolButton={false}
+  />
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={true}
+    flex={true}
+    justify="stretch"
+    padding={0}
+    raised={false}
+    style={
+      Object {
+        "height": "100%",
+      }
+    }
+    type="row"
+  >
+    <Connect(DocumentContents)
+      id="docContainer"
+      loading={false}
+    />
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={false}
+      flex={false}
+      justify="stretch"
+      padding={0}
+      raised={false}
+      style={
+        Object {
+          "flexBasis": "2%",
+        }
+      }
+      type="column"
+    />
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={true}
+      flex={false}
+      id="docMeta"
+      justify="stretch"
+      padding={0}
+      raised={false}
+      style={
+        Object {
+          "flex": "1 1 25%",
+          "flexBasis": "25%",
+        }
+      }
+      type="column"
+    >
+      <Connect(Connect(WithStyles(Autocomplete)))
+        document={
+          Object {
+            "content": Object {},
+            "name": "Test file",
+          }
+        }
+        goBack={[Function]}
+        loading={false}
+      />
+    </FlexGrid>
+  </FlexGrid>
+</FlexGrid>
+`;

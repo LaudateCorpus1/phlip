@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PDFViewer component should render correctly 1`] = `
+<div
+  className="pdfViewer"
+  id="viewContainer"
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <Alert
+    actions={
+      Array [
+        Object {
+          "onClick": [Function],
+          "type": "button",
+          "value": "Delete",
+        },
+      ]
+    }
+    closeButton={Object {}}
+    hideClose={false}
+    onCloseAlert={[Function]}
+    open={false}
+    title="Confirm deletion"
+  >
+    <WithStyles(Typography)
+      style={
+        Object {
+          "whiteSpace": "pre-wrap",
+        }
+      }
+      variant="body1"
+    >
+      Do you want to delete this annotation?
+    </WithStyles(Typography)>
+  </Alert>
+  <Alert
+    actions={Array []}
+    closeButton={
+      Object {
+        "value": "Dismiss",
+      }
+    }
+    hideClose={false}
+    onCloseAlert={[Function]}
+    open={false}
+    title="Are you trying to annotate?"
+  >
+    <WithStyles(Typography)
+      style={
+        Object {
+          "whiteSpace": "pre-wrap",
+        }
+      }
+      variant="body1"
+    >
+      Hover over an answer choice and click the 'Pencil' icon button to annotate.
+    </WithStyles(Typography)>
+    <WithStyles(Typography)
+      style={
+        Object {
+          "paddingBottom": 20,
+        }
+      }
+    />
+    <WithStyles(CheckboxLabel)
+      input={
+        Object {
+          "onChange": [Function],
+          "value": false,
+        }
+      }
+      label="Don't show me this message again."
+    />
+  </Alert>
+  <FlexGrid
+    align="center"
+    circular={false}
+    container={true}
+    flex={true}
+    justify="center"
+    padding={0}
+    raised={false}
+    style={
+      Object {
+        "height": "100%",
+      }
+    }
+    type="column"
+  >
+    <CircularLoader
+      color="primary"
+      size={40}
+      style={
+        Object {
+          "height": 24,
+          "width": 24,
+        }
+      }
+      thickness={5}
+      type="indeterminate"
+    />
+  </FlexGrid>
+</div>
+`;

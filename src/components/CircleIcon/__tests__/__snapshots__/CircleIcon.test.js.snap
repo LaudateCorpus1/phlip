@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CircleIcon component should render correctly 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#db036e",
+      "borderRadius": "50%",
+      "display": "flex",
+      "height": 32,
+      "width": 32,
+    }
+  }
+>
+  <WithTheme(Icon)
+    color="#fff"
+    size={18}
+    style={
+      Object {
+        "flex": "1",
+        "textAlign": "center",
+      }
+    }
+  >
+    home
+  </WithTheme(Icon)>
+</div>
+`;

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert component should render correctly 1`] = `
+<WithStyles(Modal)
+  open={true}
+>
+  <ModalTitle
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+      }
+    }
+    title="Test alert title"
+  />
+  <ModalContent
+    style={
+      Object {
+        "minWidth": 350,
+      }
+    }
+  >
+    <div>
+      I am the alert content.
+    </div>
+  </ModalContent>
+  <WithStyles(ModalActions)
+    actions={
+      Array [
+        Object {
+          "aria-label": "Close alert",
+          "onClick": undefined,
+          "preferred": true,
+          "type": "button",
+          "value": "Cancel",
+        },
+        Object {
+          "onClick": [Function],
+          "type": "button",
+          "value": "Cancel",
+        },
+        Object {
+          "onClick": [Function],
+          "type": "button",
+          "value": "Continue",
+        },
+      ]
+    }
+  />
+</WithStyles(Modal)>
+`;

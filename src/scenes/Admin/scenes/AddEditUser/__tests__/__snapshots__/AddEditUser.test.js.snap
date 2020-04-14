@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Management - AddEditUser scene should render correctly 1`] = `
+<WithStyles(ModalForm)
+  actions={
+    Array [
+      Object {
+        "onClick": [Function],
+        "otherProps": Object {
+          "aria-label": "Cancel and close form",
+        },
+        "type": "button",
+        "value": "Cancel",
+      },
+      Object {
+        "disabled": undefined,
+        "otherProps": Object {
+          "aria-label": "Save form",
+        },
+        "type": "submit",
+        "value": <React.Fragment>
+          Save
+        </React.Fragment>,
+      },
+    ]
+  }
+  asyncBlurFields={
+    Array [
+      "email",
+    ]
+  }
+  asyncValidate={[Function]}
+  form="addEditUser"
+  handleSubmit={[Function]}
+  initialValues={Object {}}
+  onClose={[MockFunction]}
+  open={true}
+  title="Edit User"
+>
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={true}
+    flex={false}
+    justify="stretch"
+    padding="30px 15px 0"
+    raised={false}
+    style={
+      Object {
+        "minHeight": 275,
+        "minWidth": 500,
+      }
+    }
+    type="column"
+  >
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={true}
+      flex={false}
+      justify="space-between"
+      padding="0 0 30px"
+      raised={false}
+      style={Object {}}
+      type="row"
+    >
+      <FlexGrid
+        align="stretch"
+        circular={false}
+        container={false}
+        flex={false}
+        justify="stretch"
+        padding="0 30px 0 0"
+        raised={false}
+        style={Object {}}
+        type="column"
+      >
+        <ImageFileReader
+          base64={true}
+          fileTypes={
+            Array [
+              "jpg",
+              "png",
+            ]
+          }
+          handleFiles={[Function]}
+          maxSize={500000}
+        >
+          <IconButton
+            color="#757575"
+            disabled={false}
+            iconSize={50}
+            id="add-user-photo"
+            tooltipText="Add a photo"
+          >
+            add_a_photo
+          </IconButton>
+        </ImageFileReader>
+      </FlexGrid>
+      <FlexGrid
+        align="stretch"
+        circular={false}
+        container={false}
+        flex={true}
+        justify="stretch"
+        padding="0 20px 0 0"
+        raised={false}
+        style={Object {}}
+        type="column"
+      >
+        <Field
+          component={[Function]}
+          fullWidth={true}
+          label="First Name"
+          name="firstName"
+          placeholder="Enter first name"
+          required={true}
+          shrinkLabel={true}
+          smallLabel={true}
+          validate={[Function]}
+        />
+      </FlexGrid>
+      <FlexGrid
+        align="stretch"
+        circular={false}
+        container={false}
+        flex={true}
+        justify="stretch"
+        padding={0}
+        raised={false}
+        style={Object {}}
+        type="column"
+      >
+        <Field
+          component={[Function]}
+          fullWidth={true}
+          label="Last Name"
+          name="lastName"
+          placeholder="Enter last name"
+          required={true}
+          shrinkLabel={true}
+          smallLabel={true}
+          validate={[Function]}
+        />
+      </FlexGrid>
+    </FlexGrid>
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={false}
+      flex={false}
+      justify="stretch"
+      padding="0 0 30px"
+      raised={false}
+      style={Object {}}
+      type="column"
+    >
+      <Field
+        component={[Function]}
+        disabled={false}
+        fullWidth={true}
+        label="Email"
+        name="email"
+        placeholder="Enter email"
+        required={true}
+        shrinkLabel={true}
+        smallLabel={true}
+        validate={[Function]}
+      />
+    </FlexGrid>
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={true}
+      flex={true}
+      justify="stretch"
+      padding={0}
+      raised={false}
+      style={Object {}}
+      type="row"
+    >
+      <FlexGrid
+        align="stretch"
+        circular={false}
+        container={false}
+        flex={true}
+        justify="stretch"
+        padding={0}
+        raised={false}
+        style={Object {}}
+        type="column"
+      >
+        <Field
+          component={[Function]}
+          defaultValue="Coordinator"
+          disabled={false}
+          id="role"
+          label="Role"
+          name="role"
+          options={
+            Array [
+              Object {
+                "label": "Admin",
+                "value": "Admin",
+              },
+              Object {
+                "label": "Coordinator",
+                "value": "Coordinator",
+              },
+              Object {
+                "label": "Coder",
+                "value": "Coder",
+              },
+            ]
+          }
+          required={true}
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        />
+      </FlexGrid>
+      <FlexGrid
+        align="stretch"
+        circular={false}
+        container={false}
+        flex={true}
+        justify="stretch"
+        padding={0}
+        raised={false}
+        style={Object {}}
+        type="column"
+      >
+        <Field
+          component={[Function]}
+          disabled={false}
+          label="Active"
+          name="isActive"
+          style={
+            Object {
+              "display": "10px",
+            }
+          }
+        />
+      </FlexGrid>
+    </FlexGrid>
+  </FlexGrid>
+  <Route
+    component={[Function]}
+    path="/user/profile/avatar"
+  />
+</WithStyles(ModalForm)>
+`;

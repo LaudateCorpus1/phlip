@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home scene should render correctly 1`] = `
+<FlexGrid
+  align="stretch"
+  circular={false}
+  container={true}
+  flex={true}
+  justify="stretch"
+  padding="12px 20px 20px 20px"
+  raised={false}
+  style={Object {}}
+  type="column"
+>
+  <ApiErrorAlert
+    actions={Array []}
+    content=""
+    onCloseAlert={[Function]}
+    open={false}
+  />
+  <withRouter(WithTheme(PageHeader))
+    entryScene={true}
+    icon="dvr"
+    otherButton={
+      Object {
+        "isLink": true,
+        "path": "/project/add",
+        "props": Object {
+          "aria-label": "Create New Project",
+        },
+        "show": true,
+        "state": Object {
+          "modal": true,
+          "projectDefined": null,
+        },
+        "text": "Create New Project",
+      }
+    }
+    pageTitle="Project List"
+    projectName=""
+    protocolButton={false}
+    showButton={true}
+  >
+    <WithStyles(Dropdown)
+      formControlStyle={
+        Object {
+          "minWidth": 180,
+          "paddingRight": 20,
+        }
+      }
+      id="projectSort"
+      input={
+        Object {
+          "onChange": [Function],
+          "value": "dateLastEdited",
+        }
+      }
+      name="projectSort"
+      options={
+        Array [
+          Object {
+            "label": <React.Fragment>
+              <span
+                style={
+                  Object {
+                    "paddingRight": 5,
+                  }
+                }
+              >
+                Date Last Edited
+              </span>
+              <WithTheme(Icon)
+                color="black"
+                size={20}
+              >
+                arrow_downward
+              </WithTheme(Icon)>
+            </React.Fragment>,
+            "value": "dateLastEdited",
+          },
+          Object {
+            "label": "Name",
+            "value": "name",
+          },
+          Object {
+            "label": "Last Edited By",
+            "value": "lastEditedBy",
+          },
+          Object {
+            "label": "Bookmarked",
+            "value": "sortBookmarked",
+          },
+        ]
+      }
+      renderValue={[Function]}
+      style={
+        Object {
+          "fontSize": 14,
+        }
+      }
+    />
+    <WithTheme(SearchBar)
+      handleSearchValueChange={[Function]}
+      id="project-search"
+      placeholder="Search"
+      searchValue=""
+    />
+  </withRouter(WithTheme(PageHeader))>
+  <withRouter(ProjectList)
+    allowExpandCollapse={false}
+    handleExport={[Function]}
+    handlePageChange={[MockFunction]}
+    handleRowsChange={[MockFunction]}
+    page={0}
+    projectIds={Array []}
+    rowsPerPage="10"
+    user={
+      Object {
+        "email": "tester@test.com",
+        "firstName": "Test",
+        "id": 2,
+        "lastName": "User",
+        "password": "test",
+        "role": "Coordinator",
+      }
+    }
+  />
+  <ExportDialog
+    onChooseExport={[Function]}
+    onClose={[Function]}
+    open={true}
+    projectToExport={
+      Object {
+        "text": "",
+      }
+    }
+  />
+  <a
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  />
+</FlexGrid>
+`;

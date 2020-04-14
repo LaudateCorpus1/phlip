@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home - Export Dialog - List Section should render correctly 1`] = `
+<Fragment>
+  <WithStyles(ListItem)
+    selected={true}
+  >
+    <WithStyles(ListItemText)
+      primary="Coded Data - Numeric"
+    />
+    <IconButton
+      color="white"
+      disabled={false}
+      iconSize={24}
+      iconStyle={
+        Object {
+          "color": "black",
+        }
+      }
+      tooltipText=""
+    >
+      expand_less
+    </IconButton>
+  </WithStyles(ListItem)>
+  <WithStyles(Collapse)
+    in={true}
+  >
+    <WithStyles(List)
+      component="div"
+      disablePadding={true}
+    >
+      <ListItem
+        disabled={false}
+        inProgress={false}
+        isSubItem={true}
+        isUser={false}
+        item={
+          Object {
+            "avatarInfo": Object {
+              "avatar": "",
+              "initials": <WithTheme(Icon)
+                color="white"
+                size={20}
+                style={
+                  Object {
+                    "fontWeight": 800,
+                  }
+                }
+              >
+                check
+              </WithTheme(Icon)>,
+              "style": Object {
+                "backgroundColor": "#80d134",
+              },
+            },
+            "displayText": "Validated Codes",
+            "firstName": "Validated",
+            "lastName": "Codes",
+            "userId": null,
+          }
+        }
+        key="numeric-null"
+        showAvatar={true}
+      />
+    </WithStyles(List)>
+  </WithStyles(Collapse)>
+</Fragment>
+`;

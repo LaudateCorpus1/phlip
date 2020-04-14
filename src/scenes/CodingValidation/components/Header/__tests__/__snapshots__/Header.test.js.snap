@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CodingValidation scene -- Header component should render correctly 1`] = `
+<FlexGrid
+  align="center"
+  circular={false}
+  container={true}
+  flex={false}
+  justify="space-between"
+  padding="15px 20px 15px 0px"
+  raised={false}
+  style={
+    Object {
+      "height": 36,
+      "minHeight": 36,
+    }
+  }
+  type="row"
+>
+  <FlexGrid
+    align="center"
+    circular={false}
+    container={true}
+    flex={false}
+    justify="stretch"
+    padding="0 5 0 0"
+    raised={false}
+    style={Object {}}
+    type="row"
+  >
+    <IconButton
+      aria-label="Go back"
+      color="black"
+      disabled={false}
+      iconSize={30}
+      tooltipText=""
+    >
+      arrow_back
+    </IconButton>
+    <Typography
+      style={
+        Object {
+          "fontWeight": 500,
+          "paddingLeft": 8,
+          "paddingRight": 10,
+        }
+      }
+      variant="title"
+    />
+    <Typography
+      style={
+        Object {
+          "fontWeight": 500,
+        }
+      }
+      variant="title"
+    >
+      <span
+        style={
+          Object {
+            "color": "#005757",
+          }
+        }
+      >
+        Project Test
+      </span>
+    </Typography>
+    <span />
+    <WithStyles(JurisdictionSelect) />
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={true}
+      flex={false}
+      justify="stretch"
+      padding="0 0 0 25px"
+      raised={false}
+      style={Object {}}
+      type="column"
+    >
+      <Typography
+        variant="caption"
+      >
+        <span
+          style={
+            Object {
+              "color": "#707070",
+              "letterSpacing": 0,
+            }
+          }
+        >
+          Segment Start Date 
+        </span>
+        <span
+          style={
+            Object {
+              "color": "black",
+            }
+          }
+        >
+          1/1/2018
+        </span>
+      </Typography>
+      <Typography
+        variant="caption"
+      >
+        <span
+          style={
+            Object {
+              "color": "#707070",
+              "letterSpacing": 0,
+            }
+          }
+        >
+          Segment End Date 
+        </span>
+        <span
+          style={
+            Object {
+              "color": "black",
+            }
+          }
+        >
+          1/18/2018
+        </span>
+      </Typography>
+    </FlexGrid>
+  </FlexGrid>
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={true}
+    flex={false}
+    justify="stretch"
+    padding={0}
+    raised={false}
+    style={Object {}}
+    type="row"
+  >
+    <WithTheme(Button)
+      aria-label="View and edit protocol"
+      component={[Function]}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "color": "black",
+        }
+      }
+      to="/project/4/protocol"
+    >
+      <span
+        style={
+          Object {
+            "paddingRight": 5,
+          }
+        }
+      >
+        Protocol
+      </span>
+      <WithTheme(Icon)
+        color="black"
+        size={20}
+      >
+        <Icon
+          style={
+            Object {
+              "fontSize": 20,
+            }
+          }
+        />
+      </WithTheme(Icon)>
+    </WithTheme(Button)>
+  </FlexGrid>
+</FlexGrid>
+`;

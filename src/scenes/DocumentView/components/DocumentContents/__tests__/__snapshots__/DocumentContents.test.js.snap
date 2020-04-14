@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DocumentView - DocumentContents should render correctly 1`] = `
+<FlexGrid
+  align="stretch"
+  circular={false}
+  container={true}
+  flex={true}
+  justify="stretch"
+  padding={0}
+  raised={true}
+  style={
+    Object {
+      "flexBasis": "70%",
+      "minWidth": "65%",
+      "overflow": "hidden",
+      "padding": 20,
+    }
+  }
+  type="column"
+>
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={true}
+    flex={false}
+    justify="stretch"
+    padding={0}
+    raised={false}
+    style={
+      Object {
+        "display": "inline-flex",
+        "marginBottom": 10,
+        "position": "relative",
+      }
+    }
+    type="column"
+  >
+    <WithStyles(Typography)
+      style={
+        Object {
+          "color": "#9e9e9e",
+          "fontSize": ".65rem",
+          "marginBottom": 2,
+        }
+      }
+      variant="caption"
+    >
+      Document Name
+    </WithStyles(Typography)>
+    <WithStyles(Typography)
+      id="docName"
+      variant="subheading"
+    >
+      Test file
+    </WithStyles(Typography)>
+  </FlexGrid>
+  <ApiErrorView
+    error=""
+  />
+</FlexGrid>
+`;

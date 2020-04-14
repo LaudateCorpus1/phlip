@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Document Management scene should render correctly 1`] = `
+<FlexGrid
+  align="stretch"
+  circular={false}
+  container={true}
+  flex={true}
+  justify="stretch"
+  padding="12px 20px 20px 20px"
+  raised={false}
+  style={Object {}}
+  type="column"
+>
+  <ApiErrorAlert
+    actions={Array []}
+    content=""
+    onCloseAlert={[Function]}
+    open={false}
+  />
+  <withRouter(WithTheme(PageHeader))
+    entryScene={true}
+    icon="description"
+    otherButton={
+      Object {
+        "isLink": true,
+        "path": "/docs/upload",
+        "props": Object {
+          "aria-label": "Upload New Documents",
+          "id": "uploadNewBtn",
+        },
+        "show": true,
+        "state": Object {
+          "modal": true,
+        },
+        "text": "Upload New",
+      }
+    }
+    pageTitle="Document Management"
+    projectName=""
+    protocolButton={false}
+  >
+    <Connect(Connect(WithStyles(Autocomplete))) />
+  </withRouter(WithTheme(PageHeader))>
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={true}
+    flex={true}
+    justify="stretch"
+    padding={0}
+    raised={true}
+    style={Object {}}
+    type="column"
+  >
+    <ApiErrorView
+      error=""
+    />
+  </FlexGrid>
+  <BulkModal
+    autocompleteProps={
+      Object {
+        "searchValue": "",
+        "selectedSuggestion": Object {},
+        "suggestions": Array [
+          Object {
+            "id": 2932,
+          },
+          Object {
+            "id": 25332,
+          },
+          Object {
+            "id": 1,
+          },
+          Object {
+            "id": 2,
+          },
+          Object {
+            "id": 3,
+          },
+        ],
+      }
+    }
+    bulkType=""
+    buttonInfo={
+      Object {
+        "disabled": false,
+        "inProgress": undefined,
+      }
+    }
+    onCloseModal={[Function]}
+    onConfirmAction={[Function]}
+    open={false}
+  />
+  <Route
+    component={[Function]}
+    path="/docs/upload"
+  />
+</FlexGrid>
+`;

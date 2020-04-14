@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DatePicker component should render correctly 1`] = `
+<WithStyles(FormControl)
+  disabled={false}
+  error={false}
+>
+  <ForwardRef
+    InputLabelProps={
+      Object {
+        "error": false,
+        "required": false,
+        "shrink": true,
+      }
+    }
+    InputProps={
+      Object {
+        "inputProps": Object {
+          "mask": Array [
+            /\\\\d/,
+            /\\\\d/,
+            "/",
+            /\\\\d/,
+            /\\\\d/,
+            "/",
+            /\\\\d/,
+            /\\\\d/,
+            /\\\\d/,
+            /\\\\d/,
+          ],
+          "readOnly": false,
+        },
+        "onChange": undefined,
+        "value": "01/18/1970",
+      }
+    }
+    autoOk={true}
+    format="MM/DD/YYYY"
+    keyboard={true}
+    keyboardIcon={<Icon />}
+    label="Date picker"
+    leftArrowIcon={<Icon />}
+    mask={
+      Array [
+        /\\\\d/,
+        /\\\\d/,
+        "/",
+        /\\\\d/,
+        /\\\\d/,
+        "/",
+        /\\\\d/,
+        /\\\\d/,
+        /\\\\d/,
+        /\\\\d/,
+      ]
+    }
+    name="date-picker"
+    onChange={[Function]}
+    rightArrowIcon={<Icon />}
+    style={
+      Object {
+        "marginTop": 16,
+      }
+    }
+    value={1556166912}
+  />
+</WithStyles(FormControl)>
+`;

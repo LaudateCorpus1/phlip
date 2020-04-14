@@ -1,0 +1,107 @@
+$rowHeight: 40px;
+
+.navRow {
+  height: $rowHeight;
+  width: 19px;
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+}
+
+.navRow:focus {
+  outline: 0;
+}
+
+%verticalBar {
+  content: "";
+  width: 1px;
+  left: 50%;
+  background-color: #A6B6BB;
+  position: absolute;
+}
+
+.navChild {
+  @extend .navRow;
+
+  &::after {
+    @extend %verticalBar;
+    height: $rowHeight + ($rowHeight / 2);
+    top: -8px;
+  }
+}
+
+.navFirstNoChildren {
+  @extend .navRow;
+
+  &::after {
+    @extend %verticalBar;
+    height: $rowHeight / 2;
+    top: 50%;
+  }
+}
+
+.fullVerticalBar {
+  @extend .navRow;
+
+  &::before {
+    height: $rowHeight;
+  }
+}
+
+.navParentFirst {
+  @extend .navRow;
+
+  &::after {
+    @extend %verticalBar;
+    height: ($rowHeight / 2) - 10;
+    top: $rowHeight - 10;
+  }
+}
+
+/* Two vertical bars, one above and and one below expand button */
+.navParent {
+  @extend .navParentFirst;
+
+  &::before {
+    @extend %verticalBar;
+    height: ($rowHeight / 2) + 2;
+    bottom: $rowHeight - 12;
+  }
+}
+
+.navParentLast {
+  @extend .navRow;
+
+  &::before {
+    @extend  %verticalBar;
+    height: ($rowHeight / 2) + 2;
+    bottom: $rowHeight - 12;
+  }
+}
+
+/* Vertical top bar */
+.navChildLast {
+  @extend .navRow;
+
+  &::after {
+    @extend %verticalBar;
+    height: $rowHeight - 10;
+    top: -10px;
+  }
+}
+
+/* Horizontal bar */
+.navQuestionNoChildren {
+  @extend .navRow;
+
+  &::before {
+    content: "";
+    height: 1px;
+    width: 13px;
+    background-color: #A6B6BB;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+}

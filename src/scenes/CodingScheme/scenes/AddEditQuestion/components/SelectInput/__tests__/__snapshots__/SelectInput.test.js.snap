@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddEditQuestion form -- SelectInput should render correctly 1`] = `
+<FlexGrid
+  align="stretch"
+  circular={false}
+  container={true}
+  flex={false}
+  justify="stretch"
+  padding={0}
+  raised={false}
+  style={Object {}}
+  type="row"
+>
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={false}
+    flex={false}
+    justify="stretch"
+    padding={0}
+    raised={false}
+    style={
+      Object {
+        "marginTop": 8,
+      }
+    }
+    type="column"
+  >
+    <WithStyles(Checkbox)
+      disabled={true}
+    />
+  </FlexGrid>
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={false}
+    flex={true}
+    justify="stretch"
+    padding={0}
+    raised={false}
+    style={Object {}}
+    type="column"
+  >
+    <WithStyles(FormControl)
+      error={false}
+      fullWidth={true}
+    >
+      <WithStyles(InputLabel)
+        htmlFor="possibleAnswers"
+        required={false}
+        shrink={true}
+      >
+        select-label
+      </WithStyles(InputLabel)>
+      <WithStyles(Input)
+        classes={
+          Object {
+            "disabled": undefined,
+          }
+        }
+        disabled={false}
+        id="possibleAnswers"
+        type="text"
+      />
+    </WithStyles(FormControl)>
+  </FlexGrid>
+  <FlexGrid
+    align="center"
+    circular={false}
+    container={true}
+    flex={false}
+    justify="stretch"
+    padding={0}
+    raised={false}
+    style={Object {}}
+    type="row"
+  >
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={true}
+      flex={false}
+      justify="stretch"
+      padding={0}
+      raised={false}
+      style={Object {}}
+      type="column"
+    >
+      <IconButton
+        aria-label="Move answer choice up one position"
+        color="action"
+        disableRipple={false}
+        disabled={false}
+        iconSize={36}
+        id="move-answer-1-up"
+        onClick={[MockFunction]}
+        tooltipText=""
+      >
+        arrow_drop_up
+      </IconButton>
+      <IconButton
+        aria-label="Move answer choice down one position"
+        color="action"
+        disableRipple={false}
+        disabled={false}
+        iconSize={36}
+        id="move-answer-1-down"
+        onClick={[MockFunction]}
+        style={
+          Object {
+            "marginTop": -16,
+          }
+        }
+        tooltipText=""
+      >
+        arrow_drop_down
+      </IconButton>
+    </FlexGrid>
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={false}
+      flex={false}
+      justify="stretch"
+      padding={0}
+      raised={false}
+      style={Object {}}
+      type="column"
+    >
+      <IconButton
+        aria-label="Delete 1 answer"
+        color="action"
+        disabled={false}
+        iconSize={23}
+        id="delete-answer-1"
+        onClick={[MockFunction]}
+        style={
+          Object {
+            "height": "20px !important",
+          }
+        }
+        tooltipText=""
+      >
+        delete
+      </IconButton>
+    </FlexGrid>
+  </FlexGrid>
+</FlexGrid>
+`;

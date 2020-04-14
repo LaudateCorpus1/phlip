@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home scene - ProjectList component should render correctly 1`] = `
+<FlexGrid
+  align="stretch"
+  circular={false}
+  container={false}
+  flex={false}
+  justify="stretch"
+  onMouseDown={[Function]}
+  padding={0}
+  raised={false}
+  style={
+    Object {
+      "overflow": "auto",
+    }
+  }
+  type="column"
+>
+  <ClickAwayListener
+    mouseEvent="onMouseUp"
+    onClickAway={[Function]}
+    touchEvent="onTouchEnd"
+  >
+    <div
+      style={
+        Object {
+          "padding": 3,
+        }
+      }
+    >
+      <Connect(ProjectPanel)
+        expanded={false}
+        handleEditProject={[Function]}
+        handleExpandProject={[Function]}
+        id={1}
+        index={0}
+        key="1"
+        length={2}
+        onExport={[MockFunction]}
+        role="Coordinator"
+      />
+      <Connect(ProjectPanel)
+        expanded={false}
+        handleEditProject={[Function]}
+        handleExpandProject={[Function]}
+        id={2}
+        index={1}
+        key="2"
+        length={2}
+        onExport={[MockFunction]}
+        role="Coordinator"
+      />
+    </div>
+  </ClickAwayListener>
+  <Table>
+    <WithStyles(TableFooter)>
+      <WithStyles(TableRow)>
+        <WithStyles(TablePagination)
+          count={2}
+          onChangePage={[Function]}
+          onChangeRowsPerPage={[Function]}
+          page={0}
+          rowsPerPage="10"
+        />
+      </WithStyles(TableRow)>
+    </WithStyles(TableFooter)>
+  </Table>
+</FlexGrid>
+`;

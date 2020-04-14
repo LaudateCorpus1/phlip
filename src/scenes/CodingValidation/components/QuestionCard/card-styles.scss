@@ -1,0 +1,38 @@
+$greyIcon: #757575;
+$greyIconHover: #4f5051;
+
+.greyIconBase {
+  color: $greyIcon;
+}
+
+.icon {
+  @extend .greyIconBase;
+
+  &:hover {
+    color: $greyIconHover
+  }
+}
+
+.stopIconFlag {
+  color: #D50000;
+
+  &:hover {
+    color: #a41701
+  }
+}
+
+.yellowFlagIcon {
+  color: #CE4A00;
+
+  &:hover {
+    color: #9b4400
+  }
+}
+
+.greenFlagIcon {
+  color: #2E7D32;
+
+  &:hover {
+    color: #225528
+  }
+}

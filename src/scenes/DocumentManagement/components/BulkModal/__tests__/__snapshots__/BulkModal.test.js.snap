@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DocumentManagement - BulkModal should render correctly 1`] = `
+<WithStyles(Modal)
+  hideOverflow={false}
+  id="bulkConfirmBox"
+  maxWidth="md"
+  onClose={[MockFunction]}
+  onMouseDown={[Function]}
+  open={true}
+>
+  <ModalTitle
+    title="Approve Documents"
+  />
+  <WithStyles(Divider) />
+  <ModalContent
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "column",
+        "height": 250,
+        "paddingTop": 24,
+        "width": 500,
+      }
+    }
+  >
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={true}
+      flex={true}
+      justify="space-between"
+      padding={0}
+      raised={false}
+      style={Object {}}
+      type="column"
+    >
+      <FlexGrid
+        align="stretch"
+        circular={false}
+        container={false}
+        flex={false}
+        justify="stretch"
+        padding={0}
+        raised={false}
+        style={Object {}}
+        type="column"
+      >
+        <WithStyles(Typography)
+          variant="body1"
+        >
+          Do you want to approve other users' documents?
+        </WithStyles(Typography)>
+        <WithStyles(Typography)
+          style={
+            Object {
+              "padding": 10,
+            }
+          }
+        />
+        <WithStyles(Typography)
+          variant="body1"
+        >
+          Number of documents selected: 
+          1
+        </WithStyles(Typography)>
+        <WithStyles(Typography)
+          style={
+            Object {
+              "paddingTop": 20,
+            }
+          }
+          variant="body2"
+        >
+          Users: 
+          Tim Nguyen
+        </WithStyles(Typography)>
+      </FlexGrid>
+    </FlexGrid>
+  </ModalContent>
+  <WithStyles(Divider) />
+  <WithStyles(ModalActions)
+    actions={
+      Array [
+        Object {
+          "onClick": [MockFunction],
+          "otherProps": Object {
+            "aria-label": "Close modal",
+          },
+          "preferred": true,
+          "type": "button",
+          "value": "Cancel",
+        },
+        Object {
+          "disabled": undefined,
+          "onClick": [MockFunction],
+          "otherProps": Object {
+            "aria-label": "Confirm",
+            "id": "bulkConfirmBtn",
+          },
+          "type": "button",
+          "value": <React.Fragment>
+            Confirm
+          </React.Fragment>,
+        },
+      ]
+    }
+  />
+</WithStyles(Modal)>
+`;

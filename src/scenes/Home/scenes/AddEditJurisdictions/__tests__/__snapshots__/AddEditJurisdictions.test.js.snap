@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home scene - AddEditJurisdictions scene should render correctly 1`] = `
+<WithStyles(Modal)
+  hideOverflow={true}
+  maxWidth="md"
+  onClose={[Function]}
+  open={true}
+>
+  <ModalTitle
+    SearchBarProps={
+      Object {
+        "handleSearchValueChange": [Function],
+        "placeholder": "Search",
+        "searchValue": undefined,
+        "style": Object {
+          "paddingRight": 10,
+        },
+      }
+    }
+    buttons={
+      <React.Fragment>
+        <div
+          style={
+            Object {
+              "marginRight": 10,
+            }
+          }
+        >
+          <WithTheme(Button)
+            aria-label="Load preset"
+            color="accent"
+            component={[Function]}
+            to={
+              Object {
+                "pathname": "/project/undefined/jurisdictions/add",
+                "state": Object {
+                  "modal": true,
+                  "preset": true,
+                },
+              }
+            }
+            value="Load Preset"
+          />
+        </div>
+        <div>
+          <WithTheme(Button)
+            aria-label="Add jurisdictions to project"
+            color="accent"
+            component={[Function]}
+            to={
+              Object {
+                "pathname": "/project/undefined/jurisdictions/add",
+                "state": Object {
+                  "modal": true,
+                  "preset": false,
+                },
+              }
+            }
+            value="Add Jurisdiction"
+          />
+        </div>
+      </React.Fragment>
+    }
+    search={true}
+    title={
+      <WithStyles(Typography)
+        variant="title"
+      >
+        <span
+          style={
+            Object {
+              "paddingRight": 10,
+            }
+          }
+        >
+          Jurisdictions
+        </span>
+        <span
+          style={
+            Object {
+              "color": "#048484",
+            }
+          }
+        />
+      </WithStyles(Typography)>
+    }
+  />
+  <WithStyles(Divider) />
+  <ModalContent
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "column",
+      }
+    }
+  >
+    <Alert
+      actions={
+        Array [
+          Object {
+            "onClick": [Function],
+            "type": "button",
+            "value": "Continue",
+          },
+        ]
+      }
+      closeButton={Object {}}
+      hideClose={false}
+      onCloseAlert={[Function]}
+      open={false}
+      title="Warning"
+    >
+      <WithStyles(Typography)
+        style={
+          Object {
+            "whiteSpace": "pre-wrap",
+          }
+        }
+        variant="body1"
+      >
+        Are you sure you want to delete 
+        ? All coded and validated questions related to this jurisdiction will be deleted.
+      </WithStyles(Typography)>
+    </Alert>
+    <ApiErrorAlert
+      actions={Array []}
+      onCloseAlert={[Function]}
+      open={false}
+    />
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={true}
+      flex={true}
+      justify="stretch"
+      padding={0}
+      raised={false}
+      style={
+        Object {
+          "marginTop": 20,
+        }
+      }
+      type="column"
+    >
+      <FlexGrid
+        align="stretch"
+        circular={false}
+        container={true}
+        flex={true}
+        justify="stretch"
+        padding={0}
+        raised={false}
+        style={
+          Object {
+            "overflowX": "auto",
+          }
+        }
+        type="column"
+      >
+        <JurisdictionList
+          onDelete={[Function]}
+          project={Object {}}
+        />
+      </FlexGrid>
+    </FlexGrid>
+  </ModalContent>
+  <WithStyles(ModalActions)
+    actions={
+      Array [
+        Object {
+          "onClick": [Function],
+          "otherProps": Object {
+            "aria-label": "Close modal",
+          },
+          "type": "button",
+          "value": "Close",
+        },
+      ]
+    }
+  />
+</WithStyles(Modal)>
+`;

@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuestionCard - QuestionContent should render correctly 1`] = `
+<FlexGrid
+  align="stretch"
+  circular={false}
+  container={true}
+  flex={true}
+  justify="space-between"
+  padding={0}
+  raised={false}
+  style={
+    Object {
+      "overflow": "auto",
+    }
+  }
+  type="column"
+>
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={true}
+    flex={false}
+    justify="stretch"
+    padding={0}
+    raised={false}
+    style={
+      Object {
+        "flexWrap": "nowrap",
+        "minHeight": "35%",
+        "overflow": "auto",
+      }
+    }
+    type="row"
+  >
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={true}
+      flex={false}
+      justify="stretch"
+      padding="20px 0 0 20px"
+      raised={false}
+      style={Object {}}
+      type="column"
+    >
+      <Typography
+        style={
+          Object {
+            "paddingRight": 10,
+          }
+        }
+        variant="subheading2"
+      >
+        )
+      </Typography>
+    </FlexGrid>
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={true}
+      flex={true}
+      justify="stretch"
+      padding="20px 0"
+      raised={false}
+      style={
+        Object {
+          "overflow": "auto",
+        }
+      }
+      type="column"
+    >
+      <FlexGrid
+        align="center"
+        circular={false}
+        container={true}
+        flex={false}
+        justify="stretch"
+        padding={0}
+        raised={false}
+        style={Object {}}
+        type="row"
+      >
+        <Typography
+          style={
+            Object {
+              "letterSpacing": 0,
+            }
+          }
+          variant="body2"
+        >
+           
+        </Typography>
+      </FlexGrid>
+      <FlexGrid
+        align="stretch"
+        circular={false}
+        container={true}
+        flex={true}
+        justify="stretch"
+        padding="5px 0 0"
+        raised={false}
+        style={
+          Object {
+            "overflow": "auto",
+            "width": "100%",
+          }
+        }
+        type="column"
+      >
+        <WithStyles(SelectionControlQuestion)
+          choices={
+            Array [
+              Object {
+                "id": 1,
+              },
+            ]
+          }
+          mergedUserQuestions={
+            Object {
+              "answers": Array [],
+            }
+          }
+          question={
+            Object {
+              "hint": null,
+              "possibleAnswers": Array [
+                Object {
+                  "id": 1,
+                },
+              ],
+              "questionType": 4,
+            }
+          }
+        />
+        <FlexGrid
+          align="flex-start"
+          circular={false}
+          container={true}
+          flex={true}
+          justify="stretch"
+          padding="20px 10px 5px 1px"
+          raised={false}
+          style={
+            Object {
+              "minHeight": "unset",
+            }
+          }
+          type="column"
+        />
+      </FlexGrid>
+    </FlexGrid>
+  </FlexGrid>
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={true}
+    flex={false}
+    justify="stretch"
+    padding={0}
+    raised={false}
+    style={Object {}}
+    type="column"
+  />
+</FlexGrid>
+`;

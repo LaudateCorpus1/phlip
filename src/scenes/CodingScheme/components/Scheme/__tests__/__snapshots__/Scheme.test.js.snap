@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CodingScheme scene -- Scheme component should render correctly 1`] = `
+<DragDropContext(ReactSortableTree)
+  canDrag={true}
+  canDrop={[Function]}
+  generateNodeProps={[Function]}
+  isVirtualized={true}
+  onChange={[MockFunction]}
+  onMoveNode={[MockFunction]}
+  reactVirtualizedListProps={
+    Object {
+      "containerRole": "list",
+      "overscanRowCount": 10,
+    }
+  }
+  style={
+    Object {
+      "flex": "1 0 50%",
+    }
+  }
+  theme={
+    Object {
+      "nodeContentRenderer": [Function],
+      "rowHeight": 75,
+      "scaffoldBlockPxWidth": 100,
+      "slideRegionSize": 50,
+      "treeNodeRenderer": [Function],
+    }
+  }
+  treeData={
+    Array [
+      Object {
+        "expanded": true,
+        "flags": Array [],
+        "hint": "",
+        "id": 1,
+        "isCategoryQuestion": false,
+        "parentId": 0,
+        "positionInParent": 0,
+        "possibleAnswers": Array [
+          Object {
+            "id": 123,
+            "order": 1,
+            "text": "answer 1",
+          },
+          Object {
+            "id": 234,
+            "order": 2,
+            "text": "answer 2",
+          },
+        ],
+        "questionType": 1,
+        "text": "fa la la la",
+      },
+      Object {
+        "expanded": true,
+        "flags": Array [],
+        "hint": "",
+        "id": 2,
+        "isCategoryQuestion": false,
+        "parentId": 0,
+        "positionInParent": 1,
+        "possibleAnswers": Array [
+          Object {
+            "id": 9,
+            "order": 1,
+            "text": "check 1",
+          },
+          Object {
+            "id": 8,
+            "order": 2,
+            "text": "check 2",
+          },
+          Object {
+            "id": 7,
+            "order": 3,
+            "text": "check 3",
+          },
+        ],
+        "questionType": 3,
+        "text": "la la la",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "expanded": true,
+            "flags": Array [],
+            "hint": "",
+            "id": 4,
+            "isCategoryQuestion": true,
+            "parentId": 3,
+            "positionInParent": 0,
+            "possibleAnswers": Array [
+              Object {
+                "id": 432,
+                "order": 1,
+                "text": "answer 1",
+              },
+              Object {
+                "id": 2124,
+                "order": 2,
+                "text": "answer 2",
+              },
+            ],
+            "questionType": 3,
+            "text": "cat question child",
+          },
+        ],
+        "expanded": true,
+        "flags": Array [],
+        "hint": "",
+        "id": 3,
+        "isCategoryQuestion": false,
+        "parentId": 0,
+        "positionInParent": 2,
+        "possibleAnswers": Array [
+          Object {
+            "id": 5,
+            "order": 1,
+            "text": "category 1",
+          },
+          Object {
+            "id": 10,
+            "order": 2,
+            "text": "category 2",
+          },
+          Object {
+            "id": 20,
+            "order": 3,
+            "text": "category 3",
+          },
+        ],
+        "questionType": 2,
+        "text": "cat question",
+      },
+      Object {
+        "expanded": true,
+        "flags": Array [],
+        "hint": "",
+        "id": 5,
+        "isCategoryQuestion": false,
+        "parentId": 0,
+        "positionInParent": 3,
+        "possibleAnswers": Array [
+          Object {
+            "id": 4,
+            "order": 1,
+            "text": "cat 2",
+          },
+          Object {
+            "id": 5,
+            "order": 2,
+            "text": "cat 1",
+          },
+        ],
+        "questionType": 3,
+        "text": "next sibling",
+      },
+    ]
+  }
+/>
+`;

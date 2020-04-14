@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Header - User Header - Greeting should render correctly 1`] = `
+<WithStyles(Typography)
+  style={
+    Object {
+      "color": "white",
+    }
+  }
+  variant="caption"
+>
+  Welcome, 
+  Test
+   
+  User
+  !
+  <span
+    style={
+      Object {
+        "fontStyle": "italic",
+        "opacity": 0.6,
+      }
+    }
+  >
+      (
+    Admin
+    )
+  </span>
+</WithStyles(Typography)>
+`;

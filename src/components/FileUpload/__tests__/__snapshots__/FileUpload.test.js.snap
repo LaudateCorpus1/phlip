@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`File Upload component should render correctly 1`] = `
+<Fragment>
+  <form
+    effectallowed="move"
+    encType="multipart/form-data"
+    id="drop_zone"
+    onDragOver={[Function]}
+    onDrop={[Function]}
+    style={
+      Object {
+        "flex": 1,
+        "margin": "20px 0",
+      }
+    }
+  >
+    <FlexGrid
+      align="center"
+      circular={false}
+      container={true}
+      flex={false}
+      justify="flex-start"
+      padding={0}
+      raised={false}
+      style={
+        Object {
+          "backgroundColor": "#f5fafa",
+          "border": "3px dashed #99D0E9",
+          "borderRadius": 4,
+          "height": 64,
+          "paddingLeft": 10,
+        }
+      }
+      type="row"
+    >
+      <WithTheme(Button)
+        color="white"
+        onClick={[Function]}
+        raised={true}
+        textColor="black"
+        value="Select Files"
+      />
+      <FlexGrid
+        align="stretch"
+        circular={false}
+        container={true}
+        flex={true}
+        justify="stretch"
+        padding={0}
+        raised={false}
+        style={
+          Object {
+            "height": "100%",
+            "position": "relative",
+          }
+        }
+        type="row"
+      >
+        <input
+          multiple={false}
+          onChange={[Function]}
+          style={
+            Object {
+              "height": "100%",
+              "opacity": 0,
+              "position": "absolute",
+              "width": "100%",
+            }
+          }
+          type="file"
+        />
+        <WithStyles(Typography)
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#646465",
+              "marginLeft": 10,
+            }
+          }
+          variant="body2"
+        >
+          or drag and drop here
+        </WithStyles(Typography)>
+      </FlexGrid>
+    </FlexGrid>
+  </form>
+  <Alert
+    actions={Array []}
+    closeButton={
+      Object {
+        "value": "Dismiss",
+      }
+    }
+    hideClose={false}
+    onCloseAlert={[Function]}
+    open={false}
+    title=""
+  >
+    <WithStyles(Typography)
+      style={
+        Object {
+          "whiteSpace": "pre-wrap",
+        }
+      }
+      variant="body1"
+    />
+  </Alert>
+</Fragment>
+`;

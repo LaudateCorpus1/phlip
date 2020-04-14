@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown should render correctly 1`] = `
+<FlexGrid
+  align="flex-start"
+  circular={false}
+  container={true}
+  flex={false}
+  id="test-dropdown-container"
+  justify="stretch"
+  padding={0}
+  raised={false}
+  style={
+    Object {
+      "minWidth": 120,
+    }
+  }
+  type="column"
+>
+  <WithStyles(Select)
+    classes={
+      Object {
+        "disabled": "class-disabled",
+        "icon": "class-icon",
+      }
+    }
+    disabled={false}
+    displayEmpty={false}
+    input={
+      <WithStyles(Input)
+        id="test-dropdown"
+      />
+    }
+    meta={
+      Object {
+        "error": undefined,
+        "touched": false,
+      }
+    }
+    onChange={[Function]}
+    value={1}
+  >
+    <WithStyles(MenuItem)
+      key="menu-item-0"
+      value={1}
+    >
+      Option 1
+    </WithStyles(MenuItem)>
+    <WithStyles(MenuItem)
+      key="menu-item-1"
+      value={2}
+    >
+      Option 2
+    </WithStyles(MenuItem)>
+  </WithStyles(Select)>
+</FlexGrid>
+`;

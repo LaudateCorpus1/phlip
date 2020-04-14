@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddEditQuestion form -- AnswerList should render correctly 1`] = `
+<FlexGrid
+  align="stretch"
+  circular={false}
+  container={false}
+  flex={false}
+  justify="stretch"
+  padding={0}
+  raised={false}
+  style={Object {}}
+  type="column"
+>
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={false}
+    flex={false}
+    justify="stretch"
+    padding={0}
+    raised={false}
+    style={Object {}}
+    type="column"
+  >
+    <Field
+      answerType={3}
+      canModify={true}
+      component={[Function]}
+      currentValue={
+        Object {
+          "text": "Yes",
+        }
+      }
+      fields={
+        Object {
+          "get": [Function],
+          "map": [Function],
+          "push": [MockFunction],
+          "remove": [MockFunction],
+          "swap": [MockFunction],
+        }
+      }
+      handleDelete={[Function]}
+      handleDown={[Function]}
+      handleUp={[Function]}
+      id="possibleAnswers0-text"
+      index={0}
+      isEdit={false}
+      label="Answers"
+      name="[object Object],[object Object].text"
+      placeholder="Add answer"
+      type="text"
+    />
+  </FlexGrid>
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={false}
+    flex={false}
+    justify="stretch"
+    padding={0}
+    raised={false}
+    style={Object {}}
+    type="column"
+  >
+    <Field
+      answerType={3}
+      canModify={true}
+      component={[Function]}
+      currentValue={
+        Object {
+          "text": "No",
+        }
+      }
+      fields={
+        Object {
+          "get": [Function],
+          "map": [Function],
+          "push": [MockFunction],
+          "remove": [MockFunction],
+          "swap": [MockFunction],
+        }
+      }
+      handleDelete={[Function]}
+      handleDown={[Function]}
+      handleUp={[Function]}
+      id="possibleAnswers1-text"
+      index={1}
+      isEdit={false}
+      label=""
+      name="[object Object],[object Object].text"
+      placeholder="Add answer"
+      type="text"
+    />
+  </FlexGrid>
+  <WithTheme(Button)
+    color="accent"
+    onClick={[Function]}
+    raised={false}
+    style={
+      Object {
+        "fontWeight": "normal",
+        "marginLeft": 32,
+      }
+    }
+    type="button"
+    value="Add more"
+  />
+</FlexGrid>
+`;

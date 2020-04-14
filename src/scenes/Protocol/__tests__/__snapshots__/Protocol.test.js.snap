@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Protocol scene should render correctly 1`] = `
+<FlexGrid
+  align="stretch"
+  circular={false}
+  container={true}
+  flex={true}
+  justify="stretch"
+  padding="12px 20px 20px 20px"
+  raised={false}
+  style={Object {}}
+  type="column"
+>
+  <Alert
+    actions={
+      Array [
+        Object {
+          "onClick": [Function],
+          "type": "button",
+          "value": "Continue",
+        },
+      ]
+    }
+    closeButton={Object {}}
+    hideClose={false}
+    onCloseAlert={[Function]}
+    open={false}
+    title=""
+  >
+    <WithStyles(Typography)
+      variant="body1"
+    />
+  </Alert>
+  <Alert
+    actions={Array []}
+    closeButton={
+      Object {
+        "value": "Dismiss",
+      }
+    }
+    hideClose={false}
+    onCloseAlert={[Function]}
+    open={false}
+    title={
+      <React.Fragment>
+        <WithTheme(Icon)
+          color="primary"
+          size={30}
+          style={
+            Object {
+              "paddingRight": 10,
+            }
+          }
+        >
+          lock
+        </WithTheme(Icon)>
+        The Protocol is checked out.
+      </React.Fragment>
+    }
+  >
+    <WithStyles(Typography)
+      variant="body1"
+    >
+      undefined undefined 
+       is editing the protocol. You are unable to edit until they save their changes.
+    </WithStyles(Typography)>
+  </Alert>
+  <withRouter(WithTheme(PageHeader))
+    onBackButtonClick={[Function]}
+    otherButton={
+      Object {
+        "isLink": false,
+        "onClick": [Function],
+        "otherProps": Object {
+          "aria-label": "Save protocol",
+        },
+        "show": true,
+        "style": Object {
+          "backgroundColor": "white",
+          "color": "black",
+        },
+        "text": "Edit",
+      }
+    }
+    pageTitle="Protocol"
+    projectId="12345"
+    projectName="Test Project"
+    protocolButton={false}
+  />
+  <ApiErrorAlert
+    actions={Array []}
+    content=""
+    onCloseAlert={[Function]}
+    open={false}
+  />
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={false}
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "this is the text of the protocol",
+      }
+    }
+    flex={false}
+    justify="stretch"
+    padding={25}
+    raised={true}
+    style={
+      Object {
+        "fontFamily": "Roboto",
+        "overflow": "auto",
+      }
+    }
+    type="column"
+  />
+</FlexGrid>
+`;

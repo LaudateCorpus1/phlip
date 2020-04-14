@@ -1,0 +1,306 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CodingValidation -- FlagPopover component should render correctly 1`] = `
+<FlexGrid
+  align="center"
+  circular={false}
+  container={true}
+  flex={true}
+  justify="stretch"
+  padding={0}
+  raised={false}
+  style={
+    Object {
+      "height": 24,
+      "width": "unset",
+    }
+  }
+  type="row"
+>
+  <Popover
+    onClose={[Function]}
+    onOpen={[Function]}
+    open={false}
+    target={
+      Object {
+        "icon": <Icon
+          className=""
+        />,
+        "id": "stop-coding-question",
+        "style": Object {
+          "maxHeight": 500,
+        },
+        "tooltip": "Stop coding this question",
+      }
+    }
+    title="Stop Coding This Question"
+  >
+    <FlexGrid
+      align="center"
+      circular={false}
+      container={true}
+      flex={false}
+      justify="stretch"
+      padding="10px 0 0"
+      raised={false}
+      style={
+        Object {
+          "flexWrap": "nowrap",
+          "maxHeight": 500,
+          "minHeight": 200,
+          "minWidth": 500,
+          "width": 500,
+        }
+      }
+      type="column"
+    >
+      <form
+        onSubmit={[Function]}
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "flex": 1,
+            "minWidth": 500,
+            "width": 500,
+          }
+        }
+      >
+        <FlexGrid
+          align="stretch"
+          circular={false}
+          container={false}
+          flex={true}
+          justify="stretch"
+          padding={16}
+          raised={false}
+          style={Object {}}
+          type="column"
+        >
+          <SimpleInput
+            disabled={false}
+            error={false}
+            helperText=""
+            id="flag-notes"
+            label="Notes"
+            multiline={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder="Enter Notes"
+            required={true}
+            shrinkLabel={true}
+            type="text"
+            value=""
+          />
+        </FlexGrid>
+      </form>
+      <FlexGrid
+        align="stretch"
+        circular={false}
+        container={true}
+        flex={false}
+        justify="stretch"
+        padding={16}
+        raised={false}
+        style={
+          Object {
+            "alignSelf": "flex-end",
+          }
+        }
+        type="row"
+      >
+        <WithTheme(Button)
+          color="accent"
+          onClick={[Function]}
+          raised={false}
+          value="Cancel"
+        />
+        <WithTheme(Button)
+          color="accent"
+          disabled={false}
+          onClick={[Function]}
+          raised={false}
+          type="submit"
+          value="Save"
+        />
+      </FlexGrid>
+    </FlexGrid>
+  </Popover>
+  <Popover
+    onClose={[Function]}
+    onOpen={[Function]}
+    open={false}
+    target={
+      Object {
+        "color": "#757575",
+        "icon": <Icon
+          className=""
+        />,
+        "id": "flag-question",
+        "tooltip": "Flag this question",
+      }
+    }
+    title="Flags"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <FlexGrid
+        align="stretch"
+        circular={false}
+        container={false}
+        flex={true}
+        justify="stretch"
+        padding={16}
+        raised={false}
+        style={
+          Object {
+            "minWidth": 450,
+          }
+        }
+        type="column"
+      >
+        <WithStyles(RadioGroup)
+          choices={
+            Array [
+              Object {
+                "color": "#2E7D32",
+                "disabled": false,
+                "label": "Flag for analysis",
+                "text": <FlexGrid
+                  align="center"
+                  circular={false}
+                  container={true}
+                  flex={false}
+                  justify="stretch"
+                  padding={0}
+                  raised={false}
+                  style={Object {}}
+                  type="row"
+                >
+                  <WithTheme(Icon)
+                    color="#2E7D32"
+                    style={
+                      Object {
+                        "paddingRight": 5,
+                      }
+                    }
+                  >
+                    flag
+                  </WithTheme(Icon)>
+                  <span
+                    style={
+                      Object {
+                        "color": "black",
+                      }
+                    }
+                  >
+                    Flag for analysis
+                  </span>
+                </FlexGrid>,
+                "type": 1,
+              },
+              Object {
+                "color": "#CE4A00",
+                "disabled": false,
+                "label": "Notify Coordinator",
+                "text": <FlexGrid
+                  align="center"
+                  circular={false}
+                  container={true}
+                  flex={false}
+                  justify="stretch"
+                  padding={0}
+                  raised={false}
+                  style={Object {}}
+                  type="row"
+                >
+                  <WithTheme(Icon)
+                    color="#CE4A00"
+                    style={
+                      Object {
+                        "paddingRight": 5,
+                      }
+                    }
+                  >
+                    flag
+                  </WithTheme(Icon)>
+                  <span
+                    style={
+                      Object {
+                        "color": "black",
+                      }
+                    }
+                  >
+                    Notify coordinator
+                  </span>
+                </FlexGrid>,
+                "type": 2,
+              },
+            ]
+          }
+          error={false}
+          helperText=""
+          label="Flag Type"
+          onChange={[Function]}
+          required={true}
+          selected={0}
+        />
+      </FlexGrid>
+      <FlexGrid
+        align="stretch"
+        circular={false}
+        container={false}
+        flex={true}
+        justify="stretch"
+        padding={16}
+        raised={false}
+        style={Object {}}
+        type="column"
+      >
+        <SimpleInput
+          disabled={false}
+          error={false}
+          helperText=""
+          id="flag-notes"
+          label="Notes"
+          multiline={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          placeholder="Enter Notes"
+          required={true}
+          shrinkLabel={true}
+          type="text"
+          value=""
+        />
+      </FlexGrid>
+      <FlexGrid
+        align="stretch"
+        circular={false}
+        container={true}
+        flex={true}
+        justify="flex-end"
+        padding={16}
+        raised={false}
+        style={Object {}}
+        type="row"
+      >
+        <WithTheme(Button)
+          color="accent"
+          onClick={[Function]}
+          raised={false}
+          type="button"
+          value="Cancel"
+        />
+        <WithTheme(Button)
+          color="accent"
+          disabled={false}
+          onClick={[Function]}
+          raised={false}
+          type="submit"
+          value="Save"
+        />
+      </FlexGrid>
+    </form>
+  </Popover>
+</FlexGrid>
+`;

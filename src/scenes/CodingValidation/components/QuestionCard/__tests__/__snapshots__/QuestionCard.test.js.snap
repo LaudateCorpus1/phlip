@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuestionCard component should render correctly 1`] = `
+<FlexGrid
+  align="stretch"
+  circular={false}
+  container={true}
+  flex={true}
+  justify="stretch"
+  padding={0}
+  raised={false}
+  style={
+    Object {
+      "flexBasis": "0%",
+      "minWidth": "10%",
+    }
+  }
+  type="row"
+>
+  <Alert
+    actions={
+      Array [
+        Object {
+          "onClick": [Function],
+          "type": "button",
+          "value": undefined,
+        },
+      ]
+    }
+    closeButton={Object {}}
+    hideClose={false}
+    onCloseAlert={[Function]}
+    open={false}
+    title=""
+  >
+    <WithStyles(Typography)
+      style={
+        Object {
+          "whiteSpace": "pre-wrap",
+        }
+      }
+      variant="body1"
+    />
+  </Alert>
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={true}
+    flex={true}
+    justify="stretch"
+    padding={0}
+    raised={true}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+    type="column"
+  >
+    <FlexGrid
+      align="center"
+      circular={false}
+      container={true}
+      flex={false}
+      justify="stretch"
+      padding="0 15px 0 0"
+      raised={false}
+      style={
+        Object {
+          "height": 55,
+          "minHeight": 55,
+        }
+      }
+      type="row"
+    >
+      <FlexGrid
+        align="stretch"
+        circular={false}
+        container={false}
+        flex={true}
+        justify="stretch"
+        padding={0}
+        raised={false}
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+        type="column"
+      >
+        <WithStyles(Typography)
+          style={
+            Object {
+              "color": "#757575",
+              "paddingLeft": 10,
+              "textAlign": "center",
+            }
+          }
+          variant="caption"
+        />
+      </FlexGrid>
+      <FlexGrid
+        align="stretch"
+        circular={false}
+        container={true}
+        flex={false}
+        justify="stretch"
+        padding={0}
+        raised={false}
+        style={
+          Object {
+            "marginLeft": -70,
+          }
+        }
+        type="row"
+      >
+        <IconButton
+          aria-label="Clear answer"
+          color="white"
+          disabled={false}
+          iconSize={24}
+          id="clear-answer"
+          onClick={[Function]}
+          style={
+            Object {
+              "height": 24,
+            }
+          }
+          tooltipText="Clear answer"
+        >
+          <Icon
+            aria-labelledby="Clear answer"
+          />
+        </IconButton>
+        <FlexGrid
+          align="stretch"
+          circular={false}
+          container={false}
+          flex={false}
+          justify="stretch"
+          onClick={null}
+          padding={0}
+          raised={false}
+          style={Object {}}
+          type="column"
+        >
+          <FlagPopover
+            categoryId={0}
+            disableAll={false}
+            onSaveFlag={[Function]}
+            questionFlags={Array []}
+            questionId={1}
+            user={
+              Object {
+                "firstName": "test",
+                "id": 5,
+                "lastName": "user",
+              }
+            }
+            userFlag={
+              Object {
+                "notes": "",
+                "type": 0,
+              }
+            }
+          />
+        </FlexGrid>
+      </FlexGrid>
+    </FlexGrid>
+    <WithStyles(Divider) />
+    <WithStyles(QuestionContent)
+      annotationModeEnabled={false}
+      areDocsEmpty={false}
+      currentUserInitials="tu"
+      disableAll={false}
+      enabledAnswerId=""
+      enabledUserId=""
+      hoveredAnswerChoice={0}
+      isValidation={false}
+      mergedUserQuestions={Object {}}
+      onApplyAll={[Function]}
+      onChange={[Function]}
+      onChangeTextAnswer={[Function]}
+      onClearFlag={[Function]}
+      onMouseInAnswerChoice={[Function]}
+      onMouseOutAnswerChoice={[Function]}
+      onToggleAnnotationMode={[Function]}
+      onToggleViewAnnotations={[Function]}
+      question={
+        Object {
+          "answers": Array [],
+          "id": 1,
+          "questionType": 1,
+        }
+      }
+      user={
+        Object {
+          "firstName": "test",
+          "id": 5,
+          "lastName": "user",
+        }
+      }
+      userAnswers={
+        Object {
+          "validatedBy": Object {
+            "firstName": "test",
+            "id": 5,
+            "lastName": "user",
+          },
+        }
+      }
+      userImages={Object {}}
+    />
+    <WithStyles(Divider) />
+    <FooterNavigate
+      getQuestion={[Function]}
+    />
+  </FlexGrid>
+</FlexGrid>
+`;

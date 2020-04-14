@@ -1,0 +1,276 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main scene should render correctly 1`] = `
+<FlexGrid
+  align="stretch"
+  circular={false}
+  container={true}
+  flex={true}
+  justify="stretch"
+  padding={0}
+  raised={false}
+  style={
+    Object {
+      "overflow": "hidden",
+    }
+  }
+  type="column"
+>
+  <t
+    capture={true}
+    debounce={0}
+    element={
+      Document {
+        "createElement": [Function],
+        "location": Location {
+          "assign": [Function],
+          "hash": "",
+          "host": "localhost",
+          "hostname": "localhost",
+          "href": "http://localhost/",
+          "origin": "http://localhost",
+          "pathname": "/",
+          "port": "",
+          "protocol": "http:",
+          "reload": [Function],
+          "replace": [Function],
+          "search": "",
+          "toString": [Function],
+        },
+        Symbol(SameObject caches): Object {
+          "childNodes": NodeList [
+            DocumentType {},
+            <html>
+              <head />
+              <body />
+            </html>,
+          ],
+          "styleSheets": StyleSheetList {},
+        },
+      }
+    }
+    events={
+      Array [
+        "mousemove",
+        "keydown",
+        "wheel",
+        "DOMMouseScroll",
+        "mouseWheel",
+        "mousedown",
+        "touchstart",
+        "touchmove",
+        "MSPointerDown",
+        "MSPointerMove",
+      ]
+    }
+    onAction={[Function]}
+    onActive={[Function]}
+    onIdle={[Function]}
+    passive={true}
+    startOnMount={true}
+    stopOnIdle={true}
+    throttle={0}
+    timeout={600000}
+  />
+  <AppHeader
+    onDownloadPdf={[Function]}
+    onLogoutUser={[Function]}
+    onOpenAdminPage={[Function]}
+    onTabChange={[Function]}
+    onToggleMenu={[Function]}
+    open={false}
+    tabs={
+      Array [
+        Object {
+          "active": true,
+          "icon": "dvr",
+          "id": "project-list",
+          "label": "Project List",
+          "location": "/home",
+        },
+        Object {
+          "active": false,
+          "icon": "description",
+          "id": "doc-manage",
+          "label": "Document Management",
+          "location": "/docs",
+        },
+      ]
+    }
+    user={Object {}}
+  />
+  <WithStyles(Modal)
+    id="logout-idle-alert"
+    open={false}
+  >
+    <ModalTitle
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+        }
+      }
+      title="Session Expiring"
+    />
+    <ModalContent
+      style={
+        Object {
+          "minWidth": 350,
+        }
+      }
+    >
+      <WithStyles(Typography)
+        variant="body1"
+      >
+        You'll be logged out in 
+        5:00
+        . Click the 'Continue' button below to stay logged in.
+      </WithStyles(Typography)>
+    </ModalContent>
+    <FlexGrid
+      align="center"
+      circular={false}
+      container={true}
+      flex={false}
+      justify="flex-end"
+      padding={0}
+      raised={false}
+      style={
+        Object {
+          "margin": 20,
+        }
+      }
+      type="row"
+    >
+      <WithTheme(Button)
+        color="secondary"
+        onClick={[Function]}
+        raised={false}
+      >
+        Continue
+      </WithTheme(Button)>
+    </FlexGrid>
+  </WithStyles(Modal)>
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={true}
+    flex={true}
+    justify="stretch"
+    padding={0}
+    raised={false}
+    style={
+      Object {
+        "backgroundColor": "#f5f5f5",
+        "height": "100%",
+      }
+    }
+    type="column"
+  >
+    <Switch
+      location={
+        Object {
+          "pathname": "/home",
+        }
+      }
+    >
+      <Route
+        component={[Function]}
+        path="/docs/:id/view"
+      />
+      <Route
+        component={[Function]}
+        path="/docs"
+      />
+      <Route
+        component={[Function]}
+        path="/project/:id/:view(code|validate)/:jid/:qid"
+      />
+      <Route
+        component={[Function]}
+        path="/project/:id/:view(code|validate)"
+      />
+      <Route
+        component={[Function]}
+        path="/admin"
+      />
+      <Route
+        component={[Function]}
+        path="/project/:id/coding-scheme"
+        strict={true}
+      />
+      <Route
+        component={[Function]}
+        path="/project/:id/protocol"
+        strict={true}
+      />
+      <Route
+        component={[Function]}
+        path="/home"
+      />
+      <Route
+        exact={true}
+        path="/"
+        render={[Function]}
+      />
+    </Switch>
+    <Route
+      component={[Function]}
+      path="/project/edit/:id"
+    />
+    <Route
+      component={[Function]}
+      path="/project/add"
+    />
+    <Route
+      component={[Function]}
+      path="/project/:id/jurisdictions"
+    />
+    <Route
+      component={[Function]}
+      path="/project/:id/jurisdictions/:jid/edit"
+    />
+    <Route
+      component={[Function]}
+      path="/project/:id/jurisdictions/add"
+    />
+    <Route
+      component={[Function]}
+      path="/docs/upload"
+    />
+    <Route
+      component={[Function]}
+      path="/project/:id/coding-scheme/add"
+    />
+    <Route
+      component={[Function]}
+      path="/project/:id/coding-scheme/edit/:questionId"
+    />
+    <Route
+      component={[Function]}
+      path="/admin/new/user"
+    />
+    <Route
+      component={[Function]}
+      path="/admin/edit/user/:id"
+    />
+    <Route
+      component={[Function]}
+      path="/user/profile"
+    />
+    <ApiErrorAlert
+      actions={Array []}
+      content=""
+      onCloseAlert={[Function]}
+      open={false}
+    />
+    <a
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+  </FlexGrid>
+</FlexGrid>
+`;

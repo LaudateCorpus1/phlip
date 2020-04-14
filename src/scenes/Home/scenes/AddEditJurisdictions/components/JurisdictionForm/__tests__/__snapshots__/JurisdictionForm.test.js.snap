@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home scene - AddEditJurisdictions - JurisdictionForm should render correctly 1`] = `
+<WithStyles(Modal)
+  onClose={[Function]}
+  onMouseDown={[Function]}
+  open={true}
+>
+  <ModalTitle
+    onCloseForm={[Function]}
+    title="Edit Jurisdiction"
+  />
+  <WithStyles(Divider) />
+  <ModalContent
+    id="jurisdiction-form"
+  >
+    <form>
+      <Container
+        column={true}
+        flex={false}
+        spacing={0}
+        style={
+          Object {
+            "minHeight": 230,
+            "minWidth": 550,
+            "padding": "30px 15px",
+          }
+        }
+      >
+        <Row
+          component={
+            <WithStyles(Grid)
+              item={true}
+            />
+          }
+          displayFlex={false}
+          flex={false}
+          reverse={false}
+          style={
+            Object {
+              "paddingBottom": 20,
+            }
+          }
+        >
+          <WithStyles(Autocomplete)
+            InputProps={
+              Object {
+                "disabled": true,
+                "error": false,
+                "helperText": "",
+                "label": "Name",
+                "onBlur": [Function],
+                "placeholder": "Enter jurisdiction name",
+                "required": true,
+              }
+            }
+            getSuggestionValue={[Function]}
+            handleClearSuggestions={[Function]}
+            handleGetSuggestions={[Function]}
+            handleSuggestionSelected={[Function]}
+            inputProps={
+              Object {
+                "id": "jurisdiction-name",
+                "onBlur": [Function],
+                "onChange": [Function],
+                "value": "",
+              }
+            }
+            name="name"
+            renderSuggestion={[Function]}
+            suggestions={Array []}
+          />
+        </Row>
+        <Container
+          column={false}
+          flex={false}
+          spacing={0}
+          style={
+            Object {
+              "marginTop": 30,
+            }
+          }
+        >
+          <Column
+            component={
+              <WithStyles(Grid)
+                item={true}
+              />
+            }
+            displayFlex={false}
+            flex={true}
+          >
+            <DatePicker
+              autoOk={true}
+              dateFormat="MM/DD/YYYY"
+              error=""
+              label="Segment Start Date"
+              maxDate="12/31/2050"
+              minDate="01/01/1850"
+              name="startDate"
+              onChange={[Function]}
+              onInputChange={[Function]}
+              required={true}
+            />
+          </Column>
+          <Column
+            component={
+              <WithStyles(Grid)
+                item={true}
+              />
+            }
+            displayFlex={false}
+            flex={false}
+          >
+            <DatePicker
+              autoOk={true}
+              dateFormat="MM/DD/YYYY"
+              error=""
+              label="Segment End Date"
+              maxDate="12/31/2050"
+              minDate="01/01/1850"
+              name="endDate"
+              onChange={[Function]}
+              onInputChange={[Function]}
+              required={true}
+            />
+          </Column>
+        </Container>
+      </Container>
+    </form>
+  </ModalContent>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+    type="submit"
+  />
+  <WithStyles(ModalActions)
+    actions={
+      Array [
+        Object {
+          "onClick": [Function],
+          "otherProps": Object {
+            "aria-label": "Close form",
+          },
+          "preferred": true,
+          "type": "button",
+          "value": "Cancel",
+        },
+        Object {
+          "disabled": true,
+          "onClick": [Function],
+          "otherProps": Object {
+            "aria-label": "Save form",
+          },
+          "value": <React.Fragment>
+            Save
+          </React.Fragment>,
+        },
+      ]
+    }
+  />
+</WithStyles(Modal)>
+`;

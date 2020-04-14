@@ -1,0 +1,300 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CodingValidation should render Coding component correctly 1`] = `
+<FlexGrid
+  align="stretch"
+  circular={false}
+  container={true}
+  flex={true}
+  justify="stretch"
+  padding={0}
+  raised={false}
+  style={
+    Object {
+      "display": "flex",
+      "flexWrap": "nowrap",
+      "height": "100%",
+      "overflow": "hidden",
+      "width": "100%",
+    }
+  }
+  type="row"
+>
+  <Alert
+    actions={
+      Array [
+        Object {
+          "onClick": [Function],
+          "type": "button",
+          "value": "Continue",
+        },
+      ]
+    }
+    closeButton={Object {}}
+    hideClose={false}
+    onCloseAlert={[Function]}
+    open={false}
+    title="Still Saving Changes"
+  >
+    <WithStyles(Typography)
+      style={
+        Object {
+          "whiteSpace": "pre-wrap",
+        }
+      }
+      variant="body1"
+    >
+      We haven't finished saving your answer. If you continue, changes might not be saved.
+    </WithStyles(Typography)>
+  </Alert>
+  <ApiErrorAlert
+    actions={
+      Array [
+        Object {
+          "onClick": [Function],
+          "type": "button",
+          "value": "Try Again",
+        },
+      ]
+    }
+    content={null}
+    onCloseAlert={[Function]}
+    open={false}
+  />
+  <ApiErrorAlert
+    actions={Array []}
+    content=""
+    onCloseAlert={[Function]}
+    open={false}
+  />
+  <Connect(Navigator)
+    handleQuestionSelected={[Function]}
+    selectedCategory={null}
+  />
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={true}
+    flex={true}
+    justify="stretch"
+    padding={0}
+    raised={false}
+    style={
+      Object {
+        "flexWrap": "nowrap",
+        "overflowX": "hidden",
+        "overflowY": "auto",
+        "width": "100%",
+      }
+    }
+    type="column"
+  >
+    <withRouter(Header)
+      currentJurisdiction={
+        Object {
+          "id": 11,
+        }
+      }
+      empty={false}
+      isValidation={false}
+      onGoBack={[Function]}
+      onJurisdictionChange={[Function]}
+      onOpenBulkValidate={[Function]}
+      pageTitle="Coding"
+      project={
+        Object {
+          "id": 1,
+          "name": "Project Test",
+          "projectJurisdictions": Array [
+            Object {
+              "id": 11,
+            },
+            Object {
+              "id": 10,
+            },
+            Object {
+              "id": 20,
+              "name": "florida",
+            },
+          ],
+        }
+      }
+      showValidate={true}
+    />
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={true}
+      flex={true}
+      justify="stretch"
+      padding={0}
+      raised={false}
+      style={
+        Object {
+          "backgroundColor": "#f5f5f5",
+        }
+      }
+      type="row"
+    >
+      <FlexGrid
+        align="stretch"
+        circular={false}
+        container={true}
+        flex={true}
+        justify="stretch"
+        padding={0}
+        raised={false}
+        style={
+          Object {
+            "overflow": "auto",
+          }
+        }
+        type="row"
+      >
+        <FlexGrid
+          align="stretch"
+          circular={false}
+          container={true}
+          flex={true}
+          justify="stretch"
+          padding={0}
+          raised={false}
+          style={
+            Object {
+              "minHeight": 500,
+              "overflow": "auto",
+              "padding": "1px 15px 20px 3px",
+            }
+          }
+          type="row"
+        >
+          <BulkValidate
+            onClose={[Function]}
+            onConfirmValidate={[Function]}
+            open={false}
+          />
+          <Connect(QuestionCard)
+            currentIndex={0}
+            handleGetQuestion={[Function]}
+            onAnswer={[Function]}
+            onApplyAll={[Function]}
+            onChange={[Function]}
+            onChangeCategory={[Function]}
+            onChangeTextAnswer={[Function]}
+            onClearAnswer={[Function]}
+            onClearFlag={[Function]}
+            onResetAnswer={[Function]}
+            onSave={[Function]}
+            onSaveFlag={[Function]}
+            page="coding"
+            showNextButton={false}
+            totalLength={1}
+          />
+          <Resizable
+            defaultSize={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+            enable={
+              Object {
+                "bottom": false,
+                "bottomLeft": false,
+                "bottomRight": false,
+                "left": true,
+                "right": false,
+                "top": false,
+                "topLeft": false,
+                "topRight": false,
+              }
+            }
+            grid={
+              Array [
+                1,
+                1,
+              ]
+            }
+            handleComponent={
+              Object {
+                "left": [Function],
+              }
+            }
+            handleStyles={
+              Object {
+                "left": Object {
+                  "bottom": "51.25%",
+                  "height": "fit-content",
+                  "left": 0,
+                  "top": "unset",
+                  "width": "fit-content",
+                },
+              }
+            }
+            lockAspectRatio={false}
+            lockAspectRatioExtraHeight={0}
+            lockAspectRatioExtraWidth={0}
+            minWidth="10%"
+            onResize={[Function]}
+            onResizeStart={[Function]}
+            onResizeStop={[Function]}
+            resizeRatio={1}
+            scale={1}
+            style={
+              Object {
+                "display": "flex",
+              }
+            }
+          >
+            <FlexGrid
+              align="stretch"
+              circular={false}
+              container={false}
+              flex={false}
+              justify="stretch"
+              padding={0}
+              raised={false}
+              style={
+                Object {
+                  "maxWidth": 17,
+                  "minWidth": 17,
+                  "width": 17,
+                }
+              }
+              type="column"
+            />
+            <Connect(DocumentList)
+              jurisdiction={
+                Object {
+                  "id": 11,
+                }
+              }
+              page="coding"
+              project={
+                Object {
+                  "id": 1,
+                  "name": "Project Test",
+                  "projectJurisdictions": Array [
+                    Object {
+                      "id": 11,
+                    },
+                    Object {
+                      "id": 10,
+                    },
+                    Object {
+                      "id": 20,
+                      "name": "florida",
+                    },
+                  ],
+                }
+              }
+              questionId={1}
+              saveUserAnswer={[Function]}
+            />
+          </Resizable>
+        </FlexGrid>
+      </FlexGrid>
+    </FlexGrid>
+  </FlexGrid>
+</FlexGrid>
+`;

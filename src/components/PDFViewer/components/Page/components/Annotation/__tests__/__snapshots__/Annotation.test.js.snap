@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PDFViewer - Page - Annotation component should render correctly 1`] = `
+Array [
+  <Fragment
+    key="saved-highlight-area-0-0"
+  >
+    <div
+      id="annotation-undefined-0"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#7B8DAF",
+          "cursor": "pointer",
+          "height": 11.428571428571445,
+          "left": 53.99553571428572,
+          "opacity": 0.2,
+          "position": "absolute",
+          "top": 377.8683035714285,
+          "width": 503.99466378348217,
+          "zIndex": 3,
+        }
+      }
+    />
+  </Fragment>,
+  <Fragment
+    key="saved-highlight-area-0-1"
+  >
+    <div
+      id="annotation-undefined-1"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#7B8DAF",
+          "cursor": "pointer",
+          "height": 11.428571428571388,
+          "left": 53.99553571428572,
+          "opacity": 0.2,
+          "position": "absolute",
+          "top": 391.61830357142856,
+          "width": 504.0036446707589,
+          "zIndex": 3,
+        }
+      }
+    />
+  </Fragment>,
+  <Fragment
+    key="saved-highlight-area-0-2"
+  >
+    <div
+      id="annotation-undefined-2"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#7B8DAF",
+          "cursor": "pointer",
+          "height": 11.428571428571502,
+          "left": 53.99553571428572,
+          "opacity": 0.2,
+          "position": "absolute",
+          "top": 405.3683035714285,
+          "width": 174.90853445870536,
+          "zIndex": 3,
+        }
+      }
+    />
+  </Fragment>,
+]
+`;

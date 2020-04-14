@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home - ProjectList - ProjectPanel - ProjectRow component should render correctly 1`] = `
+<FlexGrid
+  align="stretch"
+  circular={false}
+  container={true}
+  flex={true}
+  justify="stretch"
+  padding={0}
+  raised={false}
+  style={
+    Object {
+      "minHeight": 60,
+    }
+  }
+  type="row"
+>
+  <FlexGrid
+    align="center"
+    circular={false}
+    container={true}
+    flex={false}
+    justify="stretch"
+    padding="0 0 0 24px"
+    raised={false}
+    style={Object {}}
+    type="row"
+  >
+    <IconButton
+      aria-label="Bookmark this project"
+      color="#757575"
+      disabled={false}
+      iconSize={24}
+      id="bookmark-project-2"
+      onClick={[Function]}
+      tooltipText="Bookmark project"
+    >
+      bookmark_border
+    </IconButton>
+  </FlexGrid>
+  <FlexGrid
+    align="center"
+    circular={false}
+    container={true}
+    flex={true}
+    justify="stretch"
+    padding="0 12px"
+    raised={false}
+    style={
+      Object {
+        "flexBasis": "32%",
+      }
+    }
+    type="row"
+  >
+    <span>
+      PROJECT
+    </span>
+  </FlexGrid>
+  <FlexGrid
+    align="center"
+    circular={false}
+    container={true}
+    flex={true}
+    justify="flex-end"
+    padding="0 24px 0 0"
+    raised={false}
+    style={
+      Object {
+        "flexBasis": "10%",
+      }
+    }
+    type="row"
+  >
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={false}
+      flex={false}
+      justify="stretch"
+      padding={0}
+      raised={false}
+      style={
+        Object {
+          "width": "45%",
+        }
+      }
+      type="column"
+    >
+      <span
+        style={
+          Object {
+            "color": "black",
+          }
+        }
+      >
+        Date Last Edited:
+         
+      </span>
+      <span>
+        4/18/2019
+      </span>
+    </FlexGrid>
+    <span
+      style={
+        Object {
+          "width": "8%",
+        }
+      }
+    />
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={false}
+      flex={false}
+      justify="stretch"
+      padding={0}
+      raised={false}
+      style={
+        Object {
+          "width": "45%",
+        }
+      }
+      type="column"
+    >
+      <span
+        style={
+          Object {
+            "color": "black",
+          }
+        }
+      >
+        Last Edited By:
+         
+      </span>
+      Aleksandra Zaryanova
+    </FlexGrid>
+  </FlexGrid>
+</FlexGrid>
+`;

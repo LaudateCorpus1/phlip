@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PDFViewer - AnnotationFinder should render correctly 1`] = `
+<FlexGrid
+  align="center"
+  circular={false}
+  container={true}
+  flex={false}
+  justify="flex-end"
+  padding="0 8px"
+  raised={true}
+  style={
+    Object {
+      "background": "#0000008a",
+      "backgroundColor": "black",
+      "height": 37,
+      "minWidth": "40%",
+      "zIndex": 200,
+    }
+  }
+  type="row"
+>
+  <FlexGrid
+    align="center"
+    circular={false}
+    container={true}
+    flex={true}
+    justify="stretch"
+    padding="0 10px 0 0"
+    raised={false}
+    style={Object {}}
+    type="row"
+  >
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={false}
+      flex={false}
+      justify="stretch"
+      key="undefined-anno-avatar-0"
+      padding={0}
+      raised={false}
+      style={
+        Object {
+          "marginRight": 5,
+        }
+      }
+      type="column"
+    >
+      <CodingValidationAvatar
+        enabled={false}
+        isValidator={false}
+        onClick={[MockFunction]}
+        size="medium"
+        style={Object {}}
+        user={
+          Object {
+            "enabled": false,
+            "isValidator": false,
+            "userId": 1,
+          }
+        }
+      />
+    </FlexGrid>
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={false}
+      flex={false}
+      justify="stretch"
+      key="undefined-anno-avatar-1"
+      padding={0}
+      raised={false}
+      style={
+        Object {
+          "marginRight": 5,
+        }
+      }
+      type="column"
+    >
+      <CodingValidationAvatar
+        enabled={true}
+        isValidator={false}
+        onClick={null}
+        size="medium"
+        style={Object {}}
+        user={
+          Object {
+            "enabled": true,
+            "isValidator": false,
+            "userId": 2,
+          }
+        }
+      />
+    </FlexGrid>
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={false}
+      flex={false}
+      justify="stretch"
+      key="undefined-anno-avatar-2"
+      padding={0}
+      raised={false}
+      style={
+        Object {
+          "marginRight": 5,
+        }
+      }
+      type="column"
+    >
+      <CodingValidationAvatar
+        enabled={false}
+        isValidator={true}
+        onClick={[MockFunction]}
+        size="medium"
+        style={Object {}}
+        user={
+          Object {
+            "enabled": false,
+            "isValidator": true,
+            "userId": 3,
+          }
+        }
+      />
+    </FlexGrid>
+    <CodingValidationAvatar
+      enabled={true}
+      isValidator={false}
+      onClick={null}
+      size="medium"
+      style={
+        Object {
+          "backgroundColor": "#3d316a",
+          "color": "white",
+        }
+      }
+      user={
+        Object {
+          "initials": "ALL",
+          "username": "All annotations",
+        }
+      }
+    />
+  </FlexGrid>
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={false}
+    flex={false}
+    justify="stretch"
+    padding={0}
+    raised={false}
+    style={
+      Object {
+        "marginRight": 15,
+      }
+    }
+    type="column"
+  >
+    <WithStyles(Typography)
+      style={
+        Object {
+          "color": "white",
+        }
+      }
+    >
+      1
+      /
+      4
+    </WithStyles(Typography)>
+  </FlexGrid>
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={false}
+    flex={false}
+    justify="stretch"
+    padding={0}
+    raised={false}
+    style={
+      Object {
+        "borderLeft": "2px solid white",
+        "height": "50%",
+      }
+    }
+    type="column"
+  />
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={false}
+    flex={false}
+    justify="stretch"
+    padding={0}
+    raised={false}
+    style={
+      Object {
+        "marginLeft": 8,
+      }
+    }
+    type="column"
+  >
+    <IconButton
+      color="rgba(0, 0, 0, 0.54)"
+      disabled={true}
+      iconSize={24}
+      onClick={[Function]}
+      tooltipText=""
+    >
+      keyboard_arrow_up
+    </IconButton>
+    <IconButton
+      color="white"
+      disabled={false}
+      iconSize={24}
+      onClick={[Function]}
+      tooltipText=""
+    >
+      keyboard_arrow_down
+    </IconButton>
+  </FlexGrid>
+</FlexGrid>
+`;

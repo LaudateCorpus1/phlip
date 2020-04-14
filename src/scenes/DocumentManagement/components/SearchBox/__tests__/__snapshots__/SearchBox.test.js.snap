@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DocumentManagement - SearchBox should render correctly 1`] = `
+<Manager>
+  <Reference>
+    <Component />
+  </Reference>
+  <Popper
+    eventsEnabled={false}
+    placement="bottom-start"
+    style={
+      Object {
+        "pointerEvents": "none",
+      }
+    }
+  >
+    <Component />
+  </Popper>
+</Manager>
+`;

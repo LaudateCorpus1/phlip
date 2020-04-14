@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CodingScheme scene should render correctly 1`] = `
+<FlexGrid
+  align="stretch"
+  circular={false}
+  container={true}
+  flex={true}
+  justify="stretch"
+  padding="12px 20px 20px 20px"
+  raised={false}
+  style={Object {}}
+  type="column"
+>
+  <Alert
+    actions={
+      Array [
+        Object {
+          "onClick": [Function],
+          "preferred": true,
+          "type": "button",
+          "value": "Check in",
+        },
+      ]
+    }
+    closeButton={Object {}}
+    hideClose={false}
+    onCloseAlert={[Function]}
+    open={false}
+    title="You have checked out the coding scheme."
+  >
+    <WithStyles(Typography)
+      variant="body1"
+    >
+      No one else can make edits until you check it in.
+    </WithStyles(Typography)>
+  </Alert>
+  <Alert
+    actions={
+      Array [
+        Object {
+          "onClick": [Function],
+          "type": "button",
+          "value": "Continue",
+        },
+      ]
+    }
+    closeButton={Object {}}
+    hideClose={false}
+    onCloseAlert={[Function]}
+    open={false}
+    title="Warning"
+  >
+    <WithStyles(Typography)
+      style={
+        Object {
+          "whiteSpace": "pre-wrap",
+        }
+      }
+      variant="body1"
+    >
+      You will permanently delete this question, and all related questions and coded answers from the coding scheme. Do you want to continue?
+    </WithStyles(Typography)>
+  </Alert>
+  <ApiErrorAlert
+    actions={Array []}
+    content=""
+    onCloseAlert={[Function]}
+    open={false}
+  />
+  <Alert
+    actions={
+      Array [
+        Object {
+          "onClick": [Function],
+          "type": "button",
+          "value": "Unlock",
+        },
+      ]
+    }
+    closeButton={
+      Object {
+        "value": "Cancel",
+      }
+    }
+    hideClose={false}
+    onCloseAlert={[Function]}
+    open={false}
+    title={
+      <React.Fragment>
+        <WithTheme(Icon)
+          color="primary"
+          size={30}
+          style={
+            Object {
+              "paddingRight": 10,
+            }
+          }
+        >
+          lock
+        </WithTheme(Icon)>
+        The Coding Scheme is checked out.
+      </React.Fragment>
+    }
+  >
+    <WithStyles(Typography)
+      variant="body1"
+    >
+      undefined undefined 
+       is editing the coding scheme. You are unable to edit until they save their changes.
+       Select 'Unlock' to terminate their editing session.
+    </WithStyles(Typography)>
+  </Alert>
+  <withRouter(WithTheme(PageHeader))
+    checkoutButton={
+      Object {
+        "isLink": false,
+        "props": Object {
+          "onClick": [Function],
+        },
+        "show": false,
+        "text": "Check out",
+      }
+    }
+    onBackButtonClick={[Function]}
+    otherButton={
+      Object {
+        "isLink": true,
+        "path": "/project/1/coding-scheme/add",
+        "props": Object {
+          "aria-label": "Add new question to coding scheme",
+        },
+        "show": false,
+        "state": Object {
+          "canModify": true,
+          "modal": true,
+          "questionDefined": null,
+        },
+        "text": "Add New Question",
+      }
+    }
+    pageTitle="Coding Scheme"
+    projectId={1}
+    projectName="Test Project"
+    protocolButton={true}
+  />
+  <FlexGrid
+    align="stretch"
+    circular={false}
+    container={true}
+    flex={true}
+    justify="stretch"
+    padding={0}
+    raised={false}
+    style={
+      Object {
+        "backgroundColor": "#f5f5f5",
+        "marginLeft": -30,
+        "paddingTop": 25,
+      }
+    }
+    type="row"
+  >
+    <withRouter(Scheme)
+      hasLock={false}
+      lockedByCurrentUser={false}
+      onDeleteQuestion={[Function]}
+      onQuestionNodeMove={[Function]}
+      onQuestionTreeChange={[Function]}
+      projectId={1}
+      projectLocked={false}
+      questions={Array []}
+    />
+  </FlexGrid>
+</FlexGrid>
+`;

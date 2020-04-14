@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuestionCard - ValidationTable should render correctly 1`] = `
+<FlexGrid
+  align="stretch"
+  circular={false}
+  container={true}
+  flex={false}
+  justify="stretch"
+  padding={12}
+  raised={false}
+  style={
+    Object {
+      "backgroundColor": "#f9f9f9",
+      "borderTop": "1px solid rgba(0, 0, 0, 0.12)",
+      "flexBasis": "auto",
+      "flexWrap": "nowrap",
+    }
+  }
+  type="column"
+>
+  <FlexGrid
+    align="center"
+    circular={false}
+    container={true}
+    flex={false}
+    justify="space-between"
+    onClick={[Function]}
+    padding={0}
+    raised={false}
+    style={
+      Object {
+        "cursor": "pointer",
+      }
+    }
+    type="row"
+  >
+    <WithStyles(Typography)
+      style={
+        Object {
+          "color": "#757575",
+        }
+      }
+      variant="subheading"
+    >
+      Flags and Comments
+    </WithStyles(Typography)>
+    <WithTheme(Icon)
+      color="#757575"
+    >
+      keyboard_arrow_down
+    </WithTheme(Icon)>
+  </FlexGrid>
+  <WithStyles(Collapse)
+    in={false}
+    style={
+      Object {
+        "marginTop": 0,
+      }
+    }
+  >
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={true}
+      flex={true}
+      justify="stretch"
+      padding={0}
+      raised={false}
+      style={Object {}}
+      type="column"
+    >
+      <FlexGrid
+        align="center"
+        circular={false}
+        container={true}
+        flex={false}
+        justify="stretch"
+        key="flags-comments-0"
+        padding={8}
+        raised={false}
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
+        type="row"
+      >
+        <FlexGrid
+          align="center"
+          circular={false}
+          container={true}
+          flex={false}
+          justify="stretch"
+          padding="0 12px 0 0"
+          raised={false}
+          style={
+            Object {
+              "flexBasis": "25%",
+              "flexGrow": 1,
+            }
+          }
+          type="row"
+        >
+          <Connect(Avatar)
+            avatar={1}
+            initials="TU"
+            style={
+              Object {
+                "fontSize": "0.6rem",
+                "height": 25,
+                "marginRight": 10,
+                "width": 25,
+              }
+            }
+            userName="test user"
+          />
+          <WithStyles(Typography)
+            variant="caption"
+          >
+            test user
+          </WithStyles(Typography)>
+        </FlexGrid>
+        <FlexGrid
+          align="stretch"
+          circular={false}
+          container={true}
+          flex={true}
+          justify="stretch"
+          padding={0}
+          raised={false}
+          style={
+            Object {
+              "flexBasis": "75%",
+              "overflow": "hidden",
+            }
+          }
+          type="row"
+        />
+      </FlexGrid>
+    </FlexGrid>
+  </WithStyles(Collapse)>
+</FlexGrid>
+`;

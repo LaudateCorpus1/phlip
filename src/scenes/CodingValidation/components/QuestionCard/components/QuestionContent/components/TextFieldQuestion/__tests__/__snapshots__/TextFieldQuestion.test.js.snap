@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuestionCard - QuestionContent - TextFieldQuestion should render correctly 1`] = `
+<FlexGrid
+  align="stretch"
+  circular={false}
+  container={true}
+  flex={true}
+  justify="stretch"
+  padding={0}
+  raised={false}
+  style={
+    Object {
+      "minHeight": "unset",
+      "paddingTop": 0,
+    }
+  }
+  type="row"
+>
+  <FlexGrid
+    align="flex-start"
+    circular={false}
+    container={true}
+    flex={true}
+    justify="stretch"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    padding="15px 10px 15px 5px"
+    raised={false}
+    style={
+      Object {
+        "backgroundColor": "white",
+        "marginRight": 10,
+      }
+    }
+    type="row"
+  >
+    <FlexGrid
+      align="stretch"
+      circular={false}
+      container={true}
+      flex={true}
+      justify="flex-start"
+      padding={0}
+      raised={false}
+      style={Object {}}
+      type="column"
+    >
+      <WithStyles(InputBox)
+        disabled={false}
+        name="text-answer"
+        placeholder="Enter answer"
+        rows={7}
+      />
+      <PinciteTextField
+        disabled={false}
+        handleChangePincite={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                10,
+                "textAnswer",
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        schemeAnswerId={10}
+        style={
+          Object {
+            "marginTop": 10,
+            "paddingBottom": 5,
+          }
+        }
+      />
+    </FlexGrid>
+    <FlexGrid
+      align="center"
+      circular={false}
+      container={true}
+      flex={false}
+      justify="center"
+      padding="0 5px"
+      raised={false}
+      style={
+        Object {
+          "marginLeft": 10,
+          "minWidth": 40,
+        }
+      }
+      type="column"
+    />
+  </FlexGrid>
+</FlexGrid>
+`;

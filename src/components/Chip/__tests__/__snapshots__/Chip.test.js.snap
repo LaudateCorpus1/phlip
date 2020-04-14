@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chip should render correctly 1`] = `
+<WithStyles(Chip)
+  className=""
+  isFocused={false}
+  key="[object Object]"
+  label="Chip text"
+  onClick={[Function]}
+  onDelete={[Function]}
+  style={
+    Object {
+      "backgroundColor": undefined,
+      "pointerEvents": undefined,
+    }
+  }
+/>
+`;

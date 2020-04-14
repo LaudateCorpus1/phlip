@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Admin Scene it should render correctly 1`] = `
+<FlexGrid
+  align="stretch"
+  circular={false}
+  container={true}
+  flex={true}
+  justify="stretch"
+  padding="12px 20px 20px 20px"
+  raised={false}
+  style={Object {}}
+  type="column"
+>
+  <withRouter(WithTheme(PageHeader))
+    otherButton={
+      Object {
+        "isLink": true,
+        "path": "/admin/new/user",
+        "props": Object {
+          "aria-label": "Add new user",
+        },
+        "show": true,
+        "state": Object {
+          "modal": true,
+        },
+        "text": "Add New User",
+      }
+    }
+    pageTitle="User Management"
+    projectName=""
+    protocolButton={false}
+  />
+  <UserList
+    direction="asc"
+    handleRequestSort={[Function]}
+    sortBy="name"
+    users={Array []}
+  />
+</FlexGrid>
+`;

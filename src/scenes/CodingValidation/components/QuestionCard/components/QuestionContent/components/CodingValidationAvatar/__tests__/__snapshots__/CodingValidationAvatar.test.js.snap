@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CodingValidation - QuestionCard - QuestionContent - CodingValidationAvatar compoent should render correctly 1`] = `
+<WithStyles(Tooltip)
+  text="Test User"
+>
+  <FlexGrid
+    align="flex-end"
+    circular={false}
+    container={true}
+    flex={false}
+    justify="stretch"
+    padding={0}
+    raised={false}
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
+    type="column"
+  >
+    <Connect(Avatar)
+      avatar=""
+      initials="TU"
+      style={
+        Object {
+          "backgroundColor": "#e9e9e9",
+          "color": "black",
+          "cursor": "default",
+          "fontSize": "0.8rem",
+          "height": 30,
+          "margin": 0,
+          "outline": 0,
+          "width": 30,
+        }
+      }
+      userName="Test User"
+    />
+  </FlexGrid>
+</WithStyles(Tooltip)>
+`;

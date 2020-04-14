@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form should render correctly 1`] = `
+<Connect(Form(Form))
+  ariaLabelledBy="test-form"
+  destroyOnUnmount={true}
+  enableReinitialize={false}
+  forceUnregisterOnUnmount={false}
+  form={Object {}}
+  getFormState={[Function]}
+  handleSubmit={[MockFunction]}
+  keepDirtyOnReinitialize={false}
+  persistentSubmitErrors={false}
+  pure={true}
+  role="form"
+  shouldAsyncValidate={[Function]}
+  shouldError={[Function]}
+  shouldValidate={[Function]}
+  shouldWarn={[Function]}
+  style={Object {}}
+  touchOnBlur={true}
+  touchOnChange={false}
+  updateUnregisteredFields={false}
+>
+  form
+</Connect(Form(Form))>
+`;

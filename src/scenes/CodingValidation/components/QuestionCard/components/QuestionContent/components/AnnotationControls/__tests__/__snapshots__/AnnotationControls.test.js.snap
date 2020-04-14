@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CodingValidation - AnnotationControls should render correctly 1`] = `
+<Fragment>
+  <FlexGrid
+    align="center"
+    circular={false}
+    container={true}
+    flex={false}
+    justify="center"
+    padding={0}
+    raised={false}
+    style={
+      Object {
+        "backgroundColor": "#db036e",
+        "borderRadius": 2,
+        "height": 30,
+        "width": 30,
+      }
+    }
+    type="row"
+  >
+    <IconButton
+      color="white"
+      disabled={true}
+      iconSize={20}
+      tooltipText="View Annotations"
+    >
+      <Icon
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 20,
+          }
+        }
+      />
+    </IconButton>
+  </FlexGrid>
+  <FlexGrid
+    align="center"
+    circular={false}
+    container={true}
+    flex={false}
+    justify="center"
+    padding={0}
+    raised={false}
+    style={
+      Object {
+        "backgroundColor": "#db036e",
+        "borderRadius": 2,
+        "height": 30,
+        "marginTop": 5,
+        "width": 30,
+      }
+    }
+    type="row"
+  >
+    <IconButton
+      color="white"
+      disabled={true}
+      iconSize={18}
+      tooltipText="Edit Annotations"
+    >
+      <Icon
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 18,
+          }
+        }
+      />
+    </IconButton>
+  </FlexGrid>
+</Fragment>
+`;
