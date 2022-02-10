@@ -110,7 +110,7 @@
     "jest-cli": "24.9.0",
     "jest-puppeteer": "4.0.0",
     "mini-css-extract-plugin": "0.4.2",
-    "node-sass": "4.13.1",
+    "node-sass": "7.0.0",
     "postcss-loader": "3.0.0",
     "puppeteer": "1.18.1",
     "react-hot-loader": "4.12.19",
