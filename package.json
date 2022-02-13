@@ -26,7 +26,7 @@
     "@babel/runtime": "7.0.0",
     "@material-ui/core": "3.0.3",
     "@tinymce/tinymce-react": "2.2.6",
-    "ajv": "6.5.3",
+    "ajv": "6.12.3",
     "autosuggest-highlight": "3.1.1",
     "axios": "0.19.0",
     "browser-compress-image": "1.0.2",
