@@ -114,7 +114,7 @@
     "postcss-loader": "3.0.0",
     "puppeteer": "1.18.1",
     "react-hot-loader": "4.12.19",
-    "react-styleguidist": "10.6.1",
+    "react-styleguidist": "13.0.0",
     "react-test-renderer": "16.5.0",
     "redux-logic-test": "1.0.5",
     "redux-mock-store": "1.5.3",
