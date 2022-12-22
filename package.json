@@ -41,7 +41,7 @@
     "history": "4.7.2",
     "http-proxy-middleware": "0.19.0",
     "image-compressor": "1.2.0",
-    "jsonwebtoken": "8.3.0",
+    "jsonwebtoken": "9.0.0",
     "jwt-decode": "2.2.0",
     "material-ui-pickers": "1.0.0-rc.14",
     "mdi-material-ui": "5.4.0",
